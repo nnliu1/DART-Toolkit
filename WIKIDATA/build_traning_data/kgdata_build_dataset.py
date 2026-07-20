@@ -48,7 +48,7 @@ import logging
 import os
 import random
 import re
-from collections import Counter, defaultdict
+from collections import defaultdict
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Dict, Iterator, List, Optional, Set, Tuple
@@ -62,6 +62,21 @@ from tqdm import tqdm
 # ---------------------------------------------------------------------------
 from kgdata.wikidata.db import get_entity_db, get_entity_label_db, get_wdclass_db
 from kgdata.wikipedia.models.linked_html_table import LinkedHTMLTable
+
+try:
+    from .cta_labeling import (
+        ColumnTypeInference,
+        HardNegativeMiner,
+        collect_ancestors,
+        infer_column_types,
+    )
+except ImportError:
+    from cta_labeling import (
+        ColumnTypeInference,
+        HardNegativeMiner,
+        collect_ancestors,
+        infer_column_types,
+    )
 
 logging.basicConfig(
     level=logging.INFO,
@@ -94,6 +109,12 @@ class TrainingExample:
     anchor_cells: List[str]
     positive_type_qid: str
     positive_type_label: str
+    positive_type_qids: List[str]
+    positive_type_labels: List[str]
+    positive_type_support: Dict[str, float]
+    ignored_type_qids: List[str]
+    type_entity_counts: Dict[str, int]
+    num_typed_entities: int
     hard_negative_type_qids: List[str]
     hard_negative_type_labels: List[str]
     table_id: str
@@ -131,101 +152,6 @@ def header_type_is_blocked(header: str, type_qid: str) -> bool:
 # ---------------------------------------------------------------------------
 
 
-class HardNegativeMiner:
-    """
-    Mine hard negatives using the P279 hierarchy.
-
-    Because WDClass only exposes `parents` (not children), we construct a
-    parent->children inverse index over the global type pool once at init,
-    then reuse it for all sibling/cousin lookups.
-    """
-
-    def __init__(
-        self,
-        class_db,
-        global_type_pool: List[str],
-        num_negatives: int,
-        rng: random.Random,
-    ) -> None:
-        self._class_db = class_db
-        self._global_pool = global_type_pool
-        self._num_negatives = num_negatives
-        self._rng = rng
-
-        # Build parent -> children index from the global type pool
-        logger.info(
-            "Building parent->children index over %d types …",
-            len(global_type_pool),
-        )
-        self._parent_to_children: Dict[str, List[str]] = defaultdict(list)
-        self._type_parents: Dict[str, List[str]] = {}
-
-        for qid in global_type_pool:
-            parents = self._fetch_parents(qid)
-            self._type_parents[qid] = parents
-            for p in parents:
-                self._parent_to_children[p].append(qid)
-
-        logger.info(
-            "Index built: %d unique parent nodes.", len(self._parent_to_children)
-        )
-
-    def _fetch_parents(self, qid: str) -> List[str]:
-        """Fetch WDClass.parents which is List[str] of parent QIDs."""
-        try:
-            cls = self._class_db[qid]
-            return list(cls.parents)
-        except KeyError:
-            return []
-
-    def _siblings(self, qid: str) -> List[str]:
-        """Types in the pool that share at least one parent with qid."""
-        result: Set[str] = set()
-        for parent in self._type_parents.get(qid, []):
-            for child in self._parent_to_children.get(parent, []):
-                if child != qid:
-                    result.add(child)
-        return list(result)
-
-    def _cousins(self, qid: str) -> List[str]:
-        """Types two P279 hops away from qid, within the pool."""
-        result: Set[str] = set()
-        for parent in self._type_parents.get(qid, []):
-            for grandparent in self._type_parents.get(parent, []):
-                for uncle in self._parent_to_children.get(grandparent, []):
-                    if uncle != parent:
-                        for cousin in self._parent_to_children.get(uncle, []):
-                            if cousin != qid:
-                                result.add(cousin)
-        return list(result)
-
-    def mine(self, positive_qid: str) -> List[str]:
-        seen: Set[str] = {positive_qid}
-        candidates: List[str] = []
-
-        for s in self._siblings(positive_qid):
-            if s not in seen:
-                seen.add(s)
-                candidates.append(s)
-
-        if len(candidates) < self._num_negatives:
-            for c in self._cousins(positive_qid):
-                if c not in seen:
-                    seen.add(c)
-                    candidates.append(c)
-
-        if len(candidates) >= self._num_negatives:
-            return self._rng.sample(candidates, self._num_negatives)
-
-        # Fallback: random from global pool
-        remaining = self._num_negatives - len(candidates)
-        fallback_pool = [q for q in self._global_pool if q not in seen]
-        fallback = self._rng.sample(
-            fallback_pool, min(remaining, len(fallback_pool))
-        )
-        return candidates + fallback
-
-
 # ---------------------------------------------------------------------------
 # Column type inference via P31 majority vote
 # ---------------------------------------------------------------------------
@@ -243,30 +169,15 @@ def infer_column_type(
     the QID string. Returns "" for non-entity values, which we filter out.
     The old code used .as_qid() which does not exist.
     """
-    p31_counter: Counter = Counter()
-
-    for qid in entity_qids:
-        try:
-            entity = entity_db[qid]
-            for stmt in entity.props.get("P31", []):
-                # as_entity_id_safe() returns "" for non-entity values
-                type_qid = stmt.value.as_entity_id_safe()
-                if type_qid:
-                    p31_counter[type_qid] += 1
-        except KeyError:
-            continue
-
-    if not p31_counter:
+    result = infer_column_types(
+        entity_qids,
+        entity_db,
+        majority_threshold=majority_threshold,
+        positive_coverage_threshold=majority_threshold,
+    )
+    if result is None:
         return None
-
-    total = sum(p31_counter.values())
-    top_qid, top_count = p31_counter.most_common(1)[0]
-    ratio = top_count / total
-
-    if ratio < majority_threshold:
-        return None
-
-    return top_qid, ratio
+    return result.primary_qid, result.primary_coverage
 
 
 # ---------------------------------------------------------------------------
@@ -471,6 +382,8 @@ def build_dataset(
     max_cell_samples: int,
     min_linked_cells: int,
     majority_threshold: float,
+    positive_coverage_threshold: float,
+    hierarchy_ignore_depth: int,
     max_examples_per_type: int,
     seed: int,
     max_tables: Optional[int] = None,
@@ -491,7 +404,7 @@ def build_dataset(
     # ------------------------------------------------------------------
     logger.info("Pass 1: inferring column types …")
     type_to_examples: Dict[
-        str, List[Tuple[ColumnRecord, float, List[str]]]
+        str, List[Tuple[ColumnRecord, ColumnTypeInference, List[str]]]
     ] = defaultdict(list)
     col_count = accepted_count = 0
 
@@ -501,15 +414,20 @@ def build_dataset(
         unit="col",
     ):
         col_count += 1
-        result = infer_column_type(col.entity_qids, entity_db, majority_threshold)
+        result = infer_column_types(
+            col.entity_qids,
+            entity_db,
+            majority_threshold=majority_threshold,
+            positive_coverage_threshold=positive_coverage_threshold,
+        )
         if result is None:
             continue
-        type_qid, ratio = result
+        type_qid = result.primary_qid
         if header_type_is_blocked(col.header, type_qid):
             logger.debug("Blocked: header=%r type=%s", col.header, type_qid)
             continue
         sampled = _sample_diverse_cells(col.cell_values, max_cell_samples, rng)
-        type_to_examples[type_qid].append((col, ratio, sampled))
+        type_to_examples[type_qid].append((col, result, sampled))
         accepted_count += 1
 
     logger.info(
@@ -559,21 +477,42 @@ def build_dataset(
             stats["label_not_found"] += 1
             continue
 
-        neg_qids = miner.mine(type_qid)
-        neg_labels = [_resolve_label(q, label_db) or q for q in neg_qids]
-
-        for col, ratio, sampled in examples:
+        for col, inference, sampled in examples:
+            positive_qids = [
+                q for q in inference.positive_qids
+                if _resolve_label(q, label_db) is not None
+            ]
+            if type_qid not in positive_qids:
+                positive_qids.insert(0, type_qid)
+            positive_labels = [
+                _resolve_label(q, label_db) or q for q in positive_qids
+            ]
+            ancestors = collect_ancestors(
+                positive_qids, class_db, hierarchy_ignore_depth
+            )
+            ignored_qids = set(positive_qids) | ancestors
+            neg_qids = miner.mine(type_qid, excluded_qids=ignored_qids)
+            neg_labels = [_resolve_label(q, label_db) or q for q in neg_qids]
             rec = asdict(
                 TrainingExample(
                     anchor_header=col.header,
                     anchor_cells=sampled,
                     positive_type_qid=type_qid,
                     positive_type_label=pos_label,
+                    positive_type_qids=positive_qids,
+                    positive_type_labels=positive_labels,
+                    positive_type_support={
+                        q: round(inference.support[q], 4)
+                        for q in positive_qids
+                    },
+                    ignored_type_qids=sorted(ignored_qids),
+                    type_entity_counts=inference.entity_counts,
+                    num_typed_entities=inference.num_typed_entities,
                     hard_negative_type_qids=neg_qids,
                     hard_negative_type_labels=neg_labels,
                     table_id=col.table_id,
                     col_index=col.col_index,
-                    majority_ratio=round(ratio, 4),
+                    majority_ratio=round(inference.primary_coverage, 4),
                 )
             )
             buf.append(rec)
@@ -588,6 +527,7 @@ def build_dataset(
 
     # Write metadata
     meta = {
+        "schema_version": 2,
         "total_examples": stats["total"],
         "unique_types": len(type_to_examples),
         "label_not_found": stats["label_not_found"],
@@ -597,6 +537,8 @@ def build_dataset(
             max_cell_samples=max_cell_samples,
             min_linked_cells=min_linked_cells,
             majority_threshold=majority_threshold,
+            positive_coverage_threshold=positive_coverage_threshold,
+            hierarchy_ignore_depth=hierarchy_ignore_depth,
             max_examples_per_type=max_examples_per_type,
             max_tables=max_tables,
             seed=seed,
@@ -624,6 +566,14 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--max-cell-samples", type=int, default=10)
     p.add_argument("--min-linked-cells", type=int, default=3)
     p.add_argument("--majority-threshold", type=float, default=0.5)
+    p.add_argument(
+        "--positive-coverage-threshold", type=float, default=0.5,
+        help="Minimum unique-entity coverage for an alternate direct positive.",
+    )
+    p.add_argument(
+        "--hierarchy-ignore-depth", type=int, default=2,
+        help="P279 ancestor depth excluded from explicit negative mining.",
+    )
     p.add_argument("--max-examples-per-type", type=int, default=500)
     p.add_argument(
         "--max-tables",
@@ -647,6 +597,8 @@ if __name__ == "__main__":
         max_cell_samples=args.max_cell_samples,
         min_linked_cells=args.min_linked_cells,
         majority_threshold=args.majority_threshold,
+        positive_coverage_threshold=args.positive_coverage_threshold,
+        hierarchy_ignore_depth=args.hierarchy_ignore_depth,
         max_examples_per_type=args.max_examples_per_type,
         max_tables=args.max_tables,
         seed=args.seed,
