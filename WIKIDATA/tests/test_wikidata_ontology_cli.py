@@ -157,5 +157,29 @@ class ArtifactValidatorTests(unittest.TestCase):
         self.assertIn("more than 10 examples", message)
 
 
+class SlurmContractTests(unittest.TestCase):
+    def test_build_job_uses_workspace_databases_and_cpu_only_modules(self):
+        repository = Path(__file__).resolve().parents[2]
+        job_path = (
+            repository / "WIKIDATA" / "slurm" / "build_wikidata_ontology.slurm"
+        )
+
+        script = job_path.read_text(encoding="utf-8")
+
+        self.assertIn("#SBATCH --gres=gpu:0", script)
+        self.assertIn('TRAIN_DATA="$WS/cta_retrieval_dataset_v9_1_full"', script)
+        self.assertIn('WD_DB="$WS/wikidata_db"', script)
+        self.assertIn(
+            'ONTOLOGY="$TRAIN_DATA/wikidata_type_ontology.jsonl"', script
+        )
+        self.assertIn(
+            "-m WIKIDATA.ontology_parser.build_wikidata_artifact", script
+        )
+        self.assertIn(
+            "-m WIKIDATA.ontology_parser.validate_wikidata_artifact", script
+        )
+        self.assertNotIn("nvidia-smi", script)
+
+
 if __name__ == "__main__":
     unittest.main()
