@@ -35,10 +35,12 @@ def multi_positive_contrastive_loss(
     )
     if not positive_mask.any(dim=1).all():
         raise ValueError("Every query must have at least one positive")
-    positive_logits = logits.masked_fill(~positive_mask, float("-inf"))
-    loss_inbatch = -(
-        torch.logsumexp(positive_logits, dim=1)
-        - torch.logsumexp(logits, dim=1)
+    log_probabilities = F.log_softmax(logits, dim=1)
+    positive_log_probabilities = log_probabilities.masked_fill(
+        ~positive_mask, float("-inf")
+    )
+    loss_inbatch = -torch.logsumexp(
+        positive_log_probabilities, dim=1
     ).mean()
     if neg_emb is None or not neg_counts or sum(neg_counts) == 0:
         return loss_inbatch
@@ -50,12 +52,14 @@ def multi_positive_contrastive_loss(
             continue
         positive_scores = query.unsqueeze(0) @ positives.T / scale
         negative_scores = query.unsqueeze(0) @ negatives.T / scale
-        hard_losses.append(-(
-            torch.logsumexp(positive_scores, dim=1)
-            - torch.logsumexp(
-                torch.cat([positive_scores, negative_scores], dim=1), dim=1
-            )
-        ).squeeze(0))
+        candidate_log_probabilities = F.log_softmax(
+            torch.cat([positive_scores, negative_scores], dim=1), dim=1
+        )
+        hard_losses.append(
+            -torch.logsumexp(
+                candidate_log_probabilities[:, :positives.shape[0]], dim=1
+            ).squeeze(0)
+        )
     return (
         loss_inbatch + torch.stack(hard_losses).mean()
         if hard_losses else loss_inbatch

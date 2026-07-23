@@ -21,10 +21,12 @@ class MultiPositiveLossTests(unittest.TestCase):
         self.assertTrue(torch.allclose(actual, expected))
 
     def test_alternate_positive_is_rewarded_not_treated_as_negative(self):
-        query = F.normalize(torch.tensor([[1.0, 0.0]]), dim=-1)
+        query = F.normalize(
+            torch.tensor([[1.0, 0.0], [-1.0, 0.0]]), dim=-1
+        )
         positives = F.normalize(torch.tensor([[1.0, 0.0], [0.8, 0.2], [-1.0, 0.0]]), dim=-1)
         loss = multi_positive_contrastive_loss(
-            query, positives, [2], [["Q1", "Q2"]], 0.1,
+            query, positives, [2, 1], [["Q1", "Q2"], ["Q3"]], 0.1,
             positive_qids_flat=["Q1", "Q2", "Q3"],
         )
         self.assertLess(loss.item(), 0.001)
