@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "training_dir": "C:\\Users\\dg3485\\DART-Toolkit\\data\\training_data",
+    "model_zip": "C:\\Users\\dg3485\\DART-Toolkit\\dart\\model.zip",
+    "encoder_dir": "C:\\Users\\dg3485\\DART-Toolkit\\WIKIDATA\\dart_encoder",
+    "shards": [
+      "C:\\Users\\dg3485\\DART-Toolkit\\data\\training_data\\train_shard_0000.jsonl",
+      "C:\\Users\\dg3485\\DART-Toolkit\\data\\training_data\\train_shard_0001.jsonl",
+      "C:\\Users\\dg3485\\DART-Toolkit\\data\\training_data\\train_shard_0002.jsonl",
+      "C:\\Users\\dg3485\\DART-Toolkit\\data\\training_data\\train_shard_0003.jsonl"
+    ]
+  },
+  "dataset": {
+    "records": 173976,
+    "valid_records": 173976,
+    "unique_primary_types": 7704,
+    "unique_positive_qids": 9725,
+    "unique_negative_qids": 7723,
+    "metadata": {
+      "schema_version": 2,
+      "total_examples": 173976,
+      "unique_types": 7724,
+      "label_not_found": 20,
+      "num_shards": 4,
+      "config": {
+        "num_hard_negatives": 5,
+        "max_cell_samples": 10,
+        "min_linked_cells": 3,
+        "majority_threshold": 0.7,
+        "positive_coverage_threshold": 0.5,
+        "hierarchy_ignore_depth": 2,
+        "max_examples_per_type": 200,
+        "max_tables": null,
+        "seed": 42
+      }
+    },
+    "metadata_matches_observed": {
+      "total_examples": true,
+      "unique_types": false,
+      "num_shards": true
+    },
+    "unique_type_metadata_reconciliation": {
+      "exact_match": false,
+      "status": "explained_by_label_not_found"
+    },
+    "error_examples": []
+  },
+  "scope": {
+    "training_label_space": "Wikidata QIDs",
+    "unseen_ontology_evaluation_excluded": true,
+    "dbpedia_not_used_for_training_quality": true
+  },
+  "dart_contract": {
+    "train_py_present": true,
+    "dataset_py_present": true,
+    "train_cli_mentions_ontology_path": true,
+    "loader_uses_single_train_file": true,
+    "model_artifact": {
+      "path": "C:\\Users\\dg3485\\DART-Toolkit\\dart\\model.zip",
+      "file_count": 6,
+      "missing_required_files": [],
+      "complete": true
+    }
+  },
+  "smoke": {
+    "records": 256,
+    "unique_primary_types": 256,
+    "contract_ontology_terms": 1483
+  },
+  "conclusion": {
+    "wikidata_training_data_quality_passed": true,
+    "quality_failures": [],
+    "operational_notes": [
+      "CTADataset currently accepts one train_path file; use one shard, merge shards, or add multi-shard loading for full training."
+    ]
+  }
+}

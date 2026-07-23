@@ -1,0 +1,1483 @@
+{"qid": "Q4686479", "label": "tabletop role-playing game adventure", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4418079", "label": "campaign setting", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q124282", "label": "dock", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q41176", "label": "building", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q115378877", "label": "comic book storyline", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1076486", "label": "sports venue", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q951964", "label": "food product", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24249534", "label": "specialised classification scheme", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4173974", "label": "flavoring", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19708506", "label": "traditional food", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q241317", "label": "computing platform", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12034612", "label": "medicinal product", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15283424", "label": "United Kingdom general election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22703240", "label": "Iranian legislative election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22284407", "label": "Australian federal election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24558942", "label": "Mexican legislative election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q849095", "label": "Canadian federal general election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12311825", "label": "Danish parliamentary election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13393265", "label": "basketball team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23900202", "label": "tennis team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q46135307", "label": "nation at sport competition", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q136626392", "label": "Commonwealth Games delegation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1194951", "label": "national sports team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q26279994", "label": "nation at the Mediterranean Games", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1288568", "label": "modern language", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q33742", "label": "natural language", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2315359", "label": "historical language", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q45762", "label": "dead language", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1097949", "label": "literary language", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q115792670", "label": "Athens Metro station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q62078547", "label": "public research university", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q726", "label": "horse", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q146", "label": "cat", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q144", "label": "dog", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1971570", "label": "flagpole", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q516739", "label": "road transport", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q14509381", "label": "Dutch general election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11424", "label": "film", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21191270", "label": "television series episode", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q860861", "label": "sculpture", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21664088", "label": "two-part episode", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15416", "label": "television program", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24856", "label": "film series", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28640", "label": "profession", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1707847", "label": "role", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q135106813", "label": "musical occupation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15839299", "label": "theatrical occupation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q16631188", "label": "military position", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7380012", "label": "running club", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q114570820", "label": "rocket class", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q178843", "label": "rupee", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q8142", "label": "currency", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q191830", "label": "dinar", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28783456", "label": "obsolete currency", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q14083", "label": "dollar", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q203607", "label": "guilder", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q339180", "label": "pound", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13027888", "label": "baseball team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q26213387", "label": "Olympic delegation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q26271186", "label": "rugby sevens team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q61974339", "label": "esports team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q46195901", "label": "Paralympics delegation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q110867755", "label": "kabaddi team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11626449", "label": "voting method in deliberative assemblies", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22911714", "label": "bowling style", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q182545", "label": "stylistic device", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2448108", "label": "structural system", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q177691", "label": "tense", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q118108730", "label": "World Mixed Team Judo Championships", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q14869485", "label": "armored regiment", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5465729", "label": "foot guards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4828661", "label": "aviation regiment", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4451214", "label": "tank army", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q9180725", "label": "armored brigade", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q136532437", "label": "PLA branch", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3959568", "label": "Soul Reaper", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q80447738", "label": "anime character", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q87576284", "label": "manga character", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q14831768", "label": "mutate", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15298259", "label": "wizard in the Harry Potter universe", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2887138", "label": "civil basilica", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1057954", "label": "by-election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18175356", "label": "United States congressional select or special committee", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q16553805", "label": "crosses in heraldry", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q80071", "label": "symbol", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q108028209", "label": "designation type", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1051772", "label": "chordophone", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q630415", "label": "trimaran", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q691365", "label": "Sichuan cuisine", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1248874", "label": "chess engine", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q120560", "label": "minor basilica", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q16970", "label": "church building", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q124936", "label": "major basilica", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q56242215", "label": "Catholic cathedral", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q55876909", "label": "Catholic parish church", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q746310", "label": "stave church", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q56242225", "label": "Eastern Orthodox cathedral", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q41298", "label": "magazine", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1338798", "label": "United States executive order", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15087423", "label": "ISO standard", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11032", "label": "newspaper", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1640824", "label": "inscription", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q571", "label": "book", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q136770063", "label": "type of equipment", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1882685", "label": "mechanical device", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q811701", "label": "model series", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q31629", "label": "type of sport", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19861951", "label": "type of food or dish", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q107359024", "label": "class of election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q908207", "label": "complexity class", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22687823", "label": "Christian liturgical element", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3406098", "label": "Prayer in the Catholic Church", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q60733114", "label": "music tradition", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1980247", "label": "chapter", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q29154430", "label": "book of the Bible", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1643870", "label": "Weekly Torah portion", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q180720", "label": "chakra", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q299125", "label": "Mexican Open", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q47345468", "label": "tennis tournament edition", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q43605", "label": "French Open", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4454733", "label": "tennis at the Summer Universiade", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3042549", "label": "wheelchair tennis at the Summer Paralympics", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q206984", "label": "Billie Jean King Cup", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q168582", "label": "World Team Cup", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19601543", "label": "Council of Ministers", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3495267", "label": "Government of Slovakia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2458227", "label": "Cabinet of Canada", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5419816", "label": "Executive Council of British Columbia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2932373", "label": "Cabinet of New Zealand", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5015526", "label": "Cabinet of Lebanon", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15059108", "label": "region of Somalia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18555638", "label": "district of Somalia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3788231", "label": "municipal government in Canada", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q484215", "label": "federal district of Russia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q43263", "label": "federal subject of Russia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q104527265", "label": "planning area of Singapore", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11422536", "label": "international sport governing body", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q163740", "label": "nonprofit organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q89566111", "label": "cricket federation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q118798990", "label": "international association of the faithful", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1140229", "label": "political union", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q170156", "label": "confederation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q130405942", "label": "national sports governing body", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q77347966", "label": "prime link", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q77358734", "label": "type of integer", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q47103999", "label": "type of statistic", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q976981", "label": "formula", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q10376408", "label": "mathematical symbol", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15893266", "label": "former entity", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q78754808", "label": "counting unit", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1790144", "label": "unit of time", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q126752821", "label": "unit of activity referred to a radionuclide", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q126734856", "label": "unit of electric current", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2916980", "label": "unit of energy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q130825", "label": "particle accelerator", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1497364", "label": "building complex", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q35054", "label": "post office", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28564", "label": "public library", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2948561", "label": "fair ground", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q194195", "label": "amusement park", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13410428", "label": "county of Georgia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13415371", "label": "county of Wyoming", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12037308", "label": "county of South Dakota", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13410508", "label": "county of Mississippi", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12178928", "label": "county of Wisconsin", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13410403", "label": "county of Colorado", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4071928", "label": "cyberattack", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2223653", "label": "terrorist attack", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q891854", "label": "bomb attack", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q217327", "label": "suicide attack", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2001676", "label": "offensive", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15627509", "label": "military organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2658935", "label": "beauty contest", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q843065", "label": "World Scout Jamboree", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2547976", "label": "North Atlantic tropical cyclone", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1366722", "label": "final", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q61740765", "label": "LGBTQIA+ awareness period", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1445650", "label": "holiday", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q61718902", "label": "former association football federation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5450769", "label": "Football Association of Finland district", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23702035", "label": "former liberal party", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q130478340", "label": "French National Sports Federation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q130425523", "label": "National Sports Federation of Spain", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q130478936", "label": "Andorran National Sports governing body", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q464122", "label": "coronation of the British monarch", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q47455701", "label": "Goya Awards ceremony", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1753200", "label": "intifada", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q25906438", "label": "attempted coup d'état", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q263233", "label": "United States presidential inauguration", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q100796287", "label": "Golden Bell Awards ceremony", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12089225", "label": "mineral species", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2585617", "label": "drug class", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q100434640", "label": "class of chemical substances by use", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q84467700", "label": "group or class of proteins", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q429795", "label": "mineral variety", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q212434", "label": "Olympic sport", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q476028", "label": "association football club", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2022036", "label": "golf club", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q43009164", "label": "rugby union club", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q26156208", "label": "floorball club", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105587114", "label": "korfball team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13580678", "label": "multisports club", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19571328", "label": "electoral result", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q809898", "label": "baseball statistics", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54933017", "label": "race result", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20054355", "label": "career statistics", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1315592", "label": "ice hockey statistics", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15221304", "label": "first-class city", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7553685", "label": "municipal district of Bulgaria", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3565075", "label": "raion of city in Ukraine", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q41067667", "label": "municipality of Tunisia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21672098", "label": "village of Ukraine", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q14942894", "label": "LLG of Papua New Guinea", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17505024", "label": "space agency", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q47913", "label": "intelligence agency", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7374547", "label": "Royal Navy Dockyard", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q895914", "label": "constitutional institution", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q135842276", "label": "Ministry of Albania", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q167037", "label": "corporation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q10648343", "label": "duo", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12292478", "label": "estate", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1107656", "label": "garden", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q131986827", "label": "Residence of the British Royal Family", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q16884952", "label": "country house", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q33506", "label": "museum", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q751876", "label": "château", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q44613", "label": "monastery", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7579839", "label": "sports complex", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1378975", "label": "convention center", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1454477", "label": "overhead power line crossing", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1350697", "label": "National Film Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q38033430", "label": "class of award", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21844795", "label": "Washington D.C. Area Film Critics Association Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28054019", "label": "Golden Horse Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21484313", "label": "Los Angeles Film Critics Association Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2004286", "label": "Producers Guild Film Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q122610064", "label": "Filmfare Awards Bangla", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22908079", "label": "RAAF area commands", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2663913", "label": "PLA theater command", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17542873", "label": "military area command of Sweden", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7365182", "label": "Regional Military Command", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q580112", "label": "military district", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q38048707", "label": "historical cultural heritage site", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q128234", "label": "case", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q104083", "label": "grammatical number", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q184932", "label": "grammatical mood", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1131951", "label": "acidity function", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q107317889", "label": "type of record label", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3397335", "label": "legislative district of the Philippines", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2039348", "label": "municipality of the Netherlands", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q44223635", "label": "Seanad Éireann constituency", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11774263", "label": "Assembly constituency", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q59147732", "label": "constituency of the provincial assembly of Khyber Pakhtunkhwa", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q33513247", "label": "constituency of the National Assembly of Pakistan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q59658968", "label": "UEFA Euro finals", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17315159", "label": "international association football match", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q137831267", "label": "Scottish League Cup Final", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12708896", "label": "final of the FIFA World Cup", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5168161", "label": "Copa América Finals", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q80716240", "label": "UEFA Champions League final", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q577698", "label": "MLS Cup", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q137901810", "label": "NCAA beach volleyball team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54190181", "label": "NCAA Division I women's basketball team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17165333", "label": "FIBA Basketball World Cup teams", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q104179424", "label": "national ice hockey team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q115484591", "label": "defunct basketball club", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q63171169", "label": "rugby union franchise", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5", "label": "human", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q52688389", "label": "animal actor", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21070568", "label": "human whose existence is disputed", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6058157", "label": "god", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q57812611", "label": "captive mammal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q190", "label": "God", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1863435", "label": "mid-air collision", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q744913", "label": "aviation accident", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q124757", "label": "riot", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q104212151", "label": "series of wars", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15966540", "label": "local election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3477426", "label": "pavé sector", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5762701", "label": "hillclimbing", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q79007", "label": "street", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1716124", "label": "national road", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q174782", "label": "square", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12280", "label": "bridge", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1267889", "label": "waterway", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q109570442", "label": "road engineering project", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q74262765", "label": "manhwa series", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21198342", "label": "manga series", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3297186", "label": "limited series", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q137637896", "label": "manhua series", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7093850", "label": "ongoing series", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2831984", "label": "comic book album", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q75135432", "label": "administrative quarter in Barcelona", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q123705", "label": "neighborhood", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5055981", "label": "council of Asturies", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4120211", "label": "regional organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28575", "label": "county", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1008803", "label": "federal territory of Malaysia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28203007", "label": "administrative sector", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12178655", "label": "county of North Dakota", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13415369", "label": "county of Washington", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13212489", "label": "county of California", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13414764", "label": "county of Rhode Island", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15726209", "label": "school district in the United States", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15726214", "label": "school district of Canada", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q86732061", "label": "school service centre", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2986739", "label": "school board of Quebec", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q790344", "label": "district of Barcelona", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q98658352", "label": "higher education institution directly under Ministry of Education of the People’s Republic of China", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q373899", "label": "record chart", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28050019", "label": "list of best books", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4260475", "label": "medical facility", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q281460", "label": "pipe organ", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1192553", "label": "facial recognition system", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q8371", "label": "cello", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1068162", "label": "Stradivarius", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q9357527", "label": "territory of Canada", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q30941437", "label": "pornographic film studio", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q125626445", "label": "revenue division in Andhra Pradesh", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22669139", "label": "fresco", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18669740", "label": "South African bantustan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24748034", "label": "gravitational wave event", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1315", "label": "equinox", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105000", "label": "meteor shower", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q130011", "label": "geomagnetic storm", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3887", "label": "solar eclipse", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3937", "label": "supernova", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5440532", "label": "federal holiday in the United States", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1197685", "label": "public holiday", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q60075825", "label": "Christian holy day", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q901597", "label": "public holidays in Canada", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6484291", "label": "Islamic holidays", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q83620", "label": "thoroughfare", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3032333", "label": "sports division", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15401633", "label": "archaeological period", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12813115", "label": "urban area in Sweden", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21013138", "label": "geoheritage", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q372363", "label": "geotope", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q736917", "label": "geological formation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q158454", "label": "biosphere reserve", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q46169", "label": "national park", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23790", "label": "natural monument", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6617741", "label": "WWF ecoregion", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q422211", "label": "Site of Special Scientific Interest", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q124221947", "label": "One Earth Ecoregion", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q179049", "label": "nature reserve", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q8463186", "label": "national association football cup", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q51031626", "label": "sport competition at a multi-sport event", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1375427", "label": "European championship", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1814442", "label": "South American Championships in Athletics", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q385739", "label": "African Championship", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q114608872", "label": "annual sporting event", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24928712", "label": "sporting goods manufacturer", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4830453", "label": "business", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22137024", "label": "official website", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q43229", "label": "organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q721067", "label": "professional wrestling promotion", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3487908", "label": "venture capital firm", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11294827", "label": "camera manufacturer", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q16968466", "label": "regional health authority", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23002052", "label": "private for-profit educational institution", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q731978", "label": "mode", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q42855995", "label": "factory owner", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q393259", "label": "national park of Indonesia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375518", "label": "constituency of the Tripura Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q27096213", "label": "geographic entity", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q133004", "label": "diaspora", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2954097", "label": "UCI Road World Championships – women's team time trial (trade teams)", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q639244", "label": "UCI Track Cycling World Championships", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2630733", "label": "World Road Cycling Championships - Women ITT", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1147475", "label": "UCI Cyclo-cross World Championships", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q936619", "label": "UCI Mountain Bike World Championships", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q506424", "label": "UCI Road World Championships", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q708676", "label": "charitable organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15063368", "label": "federal electoral district in Manitoba", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q9842", "label": "primary school", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15195406", "label": "city district in Russia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1066670", "label": "tag team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q25178247", "label": "professional wrestling stable", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q82969709", "label": "softball team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q10517054", "label": "handball team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7492800", "label": "Sheffield City Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7832574", "label": "Trafford Metropolitan Borough Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6516179", "label": "Leeds City Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4954788", "label": "City of Bradford Metropolitan District Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4861943", "label": "Barnsley Metropolitan Borough Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7999562", "label": "Wigan Metropolitan Borough Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1451906", "label": "women's organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2485448", "label": "sports governing body", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q48204", "label": "voluntary association", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q183288", "label": "National Olympic Committee", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15090615", "label": "arts venue", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q196776", "label": "certificate authority", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18457896", "label": "student organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q138796", "label": "resistance movement", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q108325", "label": "chapel", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2991491", "label": "historic county of Quebec", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19905455", "label": "borough", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q204613", "label": "regional county municipality of Quebec", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q182886", "label": "artificial whitewater", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5031071", "label": "canal tunnel", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1030403", "label": "navigable aqueduct", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q523166", "label": "gracht", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q665247", "label": "hypogeum", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q87715130", "label": "missile launch site", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1849110", "label": "outlaw motorcycle club", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17127659", "label": "terrorist organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q275186", "label": "gang", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11090465", "label": "Japanese organized crime group", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24354647", "label": "editorial team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1054782", "label": "Renfe Cercanías", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3455648", "label": "Regional Authorities in Ireland", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3455681", "label": "NUTS 2 statistical territorial entity of the Republic of Ireland", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q640262", "label": "province of Chad", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q836672", "label": "region of Kazakhstan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15646510", "label": "region of the Gambia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q44565", "label": "eyalet", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q475214", "label": "department of El Salvador", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1021711", "label": "seaside resort", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2630741", "label": "community", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3957", "label": "town", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17305746", "label": "northern settlement of Saskatchewan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2264924", "label": "port city", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q117214267", "label": "official city of the Democratic Republic of the Congo", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1074523", "label": "planned community", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3505887", "label": "city council", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1058387", "label": "district of Malawi", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3539870", "label": "district of Uganda", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q152732", "label": "district of Bangladesh", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2655841", "label": "municipality of Georgia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q83116", "label": "province of Belgium", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5283500", "label": "district of Myanmar", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q262882", "label": "statutory city of Austria", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q667509", "label": "municipality of Austria", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q871419", "label": "district of Austria", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13539802", "label": "place with town rights and privileges", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1549591", "label": "big city", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1392581", "label": "cycling city", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13416557", "label": "Royal city in Polish-Lithuanian Commonwealth", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1066538", "label": "national central city", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q104157", "label": "city of the Philippines", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q34986717", "label": "city of Malaysia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q83856136", "label": "legal position", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q114962596", "label": "historical position", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q138024519", "label": "Roman Catholic episcopal title", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4189293", "label": "rank", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q112806876", "label": "appointed position", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22696407", "label": "Indian general election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1007356", "label": "German federal election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q25534775", "label": "Sint Maarten general election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28649370", "label": "Philippine House election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3586948", "label": "Ontario general election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q10876322", "label": "State-owned enterprise of Taiwan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q848507", "label": "commercial bank", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105483186", "label": "Area Electricity Board", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5589413", "label": "Government-owned and controlled corporation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2324835", "label": "national railway", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q124343324", "label": "Chinese state-owned enterprise", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q118496881", "label": "professional wrestling match type", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12136", "label": "disease", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q55215251", "label": "medical test type", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q108680062", "label": "form of festival", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5162954", "label": "conservation designation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6041039", "label": "Former Institutes of technology in the Republic of Ireland", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q106708393", "label": "technological university", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1365560", "label": "university of applied sciences", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q845392", "label": "polytechnic", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q134468886", "label": "association football academy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1336920", "label": "community college", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q116052725", "label": "national geopolitical entity", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3624078", "label": "sovereign state", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6256", "label": "country", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1066984", "label": "financial center", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11774062", "label": "county of Arkansas", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q607608", "label": "phyle", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q148837", "label": "polis", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12332021", "label": "politics by country", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28108", "label": "political system", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q66374263", "label": "religion of an area", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q96916100", "label": "pornography by country or region", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105897950", "label": "agriculture by country or territory", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q55276680", "label": "television in a country", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23983664", "label": "demographics of country or region", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q112965645", "label": "symptom or sign", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23012297", "label": "type of electricity transmission", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q48708989", "label": "cartridge family", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17644912", "label": "bridge by mode of traffic or usage", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q417841", "label": "protein family", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17197366", "label": "type of organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q902805", "label": "primary nutritional group", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3663337", "label": "train category in Italy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q117384800", "label": "spacecraft model", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q112193867", "label": "class of disease", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3231690", "label": "automobile model", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1959427", "label": "Maori electorate", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3382900", "label": "New Zealand electorate", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375424", "label": "constituency of the Bihar Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375430", "label": "constituency of the Delhi Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375527", "label": "constituency of the Uttarakhand Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375470", "label": "constituency of the Manipur Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q96020121", "label": "congressional district of the Philippines", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15811108", "label": "Führerpartei", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2023214", "label": "political party in Germany", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q40482169", "label": "defunct political party", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q233591", "label": "communist party", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3778417", "label": "green party", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q25768329", "label": "political party in Catalonia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24887161", "label": "local political party", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q108564724", "label": "social democratic party", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2714624", "label": "Field Army", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105754856", "label": "German Empire field army", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q129092590", "label": "Division of Xinjiang Production and Construction Corps", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12141301", "label": "airborne division", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17007570", "label": "Korean War Ranger Companies", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q81645558", "label": "light infantry regiment", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q66736002", "label": "British infantry regiment", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q88904619", "label": "United States Army infantry division", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105036901", "label": "Infantry Division of the Republic of Korea Army", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4443691", "label": "rifle division", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17210", "label": "container ship", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1760328", "label": "roll-on/roll-off passenger ship", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15617994", "label": "administrative territorial entity type", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q115291", "label": "province of Cuba", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q9328551", "label": "space habitat", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18131152", "label": "round", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28089258", "label": "knockout stage", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q40244", "label": "marathon", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q185948", "label": "time trial", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5386", "label": "auto racing", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q127448", "label": "municipality of Sweden", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2693910", "label": "district of Lebanon", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q29414133", "label": "community of Cyprus Republic", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18534049", "label": "county of North Korea", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q96857311", "label": "village of Guam", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1062593", "label": "province of Bolivia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q55475603", "label": "Generation IV reactor", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1946602", "label": "Generation II reactor", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11600404", "label": "Generation I reactor", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q976748", "label": "Generation III reactor", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1438105", "label": "research reactor", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7543123", "label": "small modular reactor", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q30315988", "label": "Mexican Secretariat of State", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4481741", "label": "federal ministry in Russia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18683469", "label": "Bundesministerium", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q896375", "label": "Federal Ministry in Germany", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q57605562", "label": "department of the Australian Government", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7755", "label": "constitution", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q835068", "label": "law of the People's Republic of China", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q110452794", "label": "form of creative work", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q192624", "label": "metre", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q49371", "label": "legislation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q33283984", "label": "Act of the Parliament of India", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1002697", "label": "periodical", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17558136", "label": "YouTube channel", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2116397", "label": "law report", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q16744570", "label": "tablet", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2462003", "label": "instant messaging client", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q107816032", "label": "neighborhood in Somerville", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3413329", "label": "neighborhood in Boston", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q860582", "label": "community area in Chicago", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q136997911", "label": "neighbourhood of Quebec City", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q79416466", "label": "neighborhood of Frankfurt", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1133961", "label": "commercial district", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q29851044", "label": "sacred text of Manichaeism", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7725634", "label": "literary work", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q170207", "label": "Biblical apocrypha", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1001051", "label": "Buddhist text", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1194040", "label": "Hindu text", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6113985", "label": "Upanishads", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7831615", "label": "Talmudical tractate", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20829075", "label": "type of language", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21114371", "label": "episcopal title", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q124515690", "label": "Anglican episcopal title", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q56019", "label": "military rank", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q355567", "label": "noble title", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13578154", "label": "rank in zoology", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15063391", "label": "federal electoral district in Prince Edward Island", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17202187", "label": "federal electoral district of Canada", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15063379", "label": "federal electoral district in Newfoundland and Labrador", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15063373", "label": "federal electoral district in New Brunswick", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15063384", "label": "federal electoral district in Nova Scotia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15063395", "label": "federal electoral district in Saskatchewan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3000849", "label": "FAMAS Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21705016", "label": "Costume Designers Guild Award", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3610287", "label": "Sarasaviya Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q369606", "label": "Hundred Flowers Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q979103", "label": "Magritte Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28382046", "label": "St. Louis Film Critics Association Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q48349", "label": "empire", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q131401", "label": "caliphate", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7840353", "label": "federally recognized Native American tribe in the United States", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q202686", "label": "Commonwealth realm", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20181813", "label": "colonial power", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q51576574", "label": "Mediterranean country", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q93301", "label": "locomotive", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q108759237", "label": "trucks classification", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q483373", "label": "electric multiple unit", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1420", "label": "car", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q831109", "label": "Gemini spacecraft", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q697175", "label": "launch vehicle", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1234255", "label": "regional unit of Greece", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q202595", "label": "prefecture of Greece", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1267632", "label": "raion of Ukraine", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7703797", "label": "territory of the Democratic Republic of the Congo", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q56059", "label": "department of Uruguay", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17143371", "label": "county of South Korea", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q290588", "label": "Étoile de Bessèges", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1859219", "label": "Tour du Rwanda", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q866427", "label": "Grand Tour", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q95080679", "label": "national park of Thailand", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1281199", "label": "password manager", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q207842", "label": "medium-capacity rail transport system", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20203507", "label": "viceroyalty of the Spanish Empire", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5036886", "label": "Captaincies of the Spanish Empire", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1202812", "label": "region of Djibouti", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q475061", "label": "amphoe", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22049119", "label": "province of Nepal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q56809587", "label": "National Park of Mexico", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18618819", "label": "national park of Australia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3131754", "label": "national park of Guatemala", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1896949", "label": "national park of Canada", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21815132", "label": "Nationalpark", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q622499", "label": "refugee camp", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20202352", "label": "locality of Mexico", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1529096", "label": "village of Turkey", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q620471", "label": "upazila of Bangladesh", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q424857", "label": "ōaza", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23828039", "label": "village/town/city in Lebanon", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3586952", "label": "Saskatchewan general election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22266213", "label": "Argentine legislative election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3722112", "label": "municipal election in Italy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15974864", "label": "Spanish general election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3586944", "label": "Manitoba general election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18559008", "label": "district of São Paulo", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2779745", "label": "urban district of the Netherlands", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3032114", "label": "district of Madrid", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2989468", "label": "Communes d'arrondissement of Senegal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15634883", "label": "district of Manila", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q137773", "label": "ward of Japan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4611891", "label": "association football position", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3399646", "label": "ice hockey position", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1148974", "label": "basketball position", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q694589", "label": "American football position", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1151733", "label": "baseball position", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4825214", "label": "Australian rules football position", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17166730", "label": "agency of Pakistan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2379075", "label": "district of Pakistan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4814017", "label": "division of Pakistan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18670606", "label": "tehsil of Pakistan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2592651", "label": "union council of Pakistan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15058985", "label": "province of Pakistan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1388464", "label": "regional municipality in Canada", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12140", "label": "medication", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15268054", "label": "cell therapy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q213901", "label": "gene therapy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28885102", "label": "pharmaceutical product", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1427844", "label": "meat dish", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5159627", "label": "confection", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1172313", "label": "file viewer", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q610398", "label": "system on a chip", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15648574", "label": "racecar constructor", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q786820", "label": "automobile manufacturer", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q891723", "label": "public company", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q221096", "label": "public–private partnership", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1812889", "label": "legislative session", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7210356", "label": "political organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1470315", "label": "front organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6498663", "label": "fire department", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5474012", "label": "Foton-M", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12832168", "label": "artificial satellite of the Earth", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q60738906", "label": "Solrad", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105095031", "label": "Crew Dragon", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q25956", "label": "space station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q148578", "label": "space telescope", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15896028", "label": "defunct sports team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15770988", "label": "water polo team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17156793", "label": "American football team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20639856", "label": "professional sports team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5259261", "label": "patera", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q8514", "label": "desert", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q34038", "label": "waterfall", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q160091", "label": "plain", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23442", "label": "island", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3423535", "label": "regio", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q124196", "label": "semi-arid climate", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q463820", "label": "isotope of beryllium", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q193234", "label": "motor scooter", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1069313", "label": "GPS satellite", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1004435", "label": "athletics track", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q822715", "label": "department of Nicaragua", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q847299", "label": "province of Vanuatu", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17315624", "label": "state of Myanmar", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5852411", "label": "state of Australia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q250050", "label": "department of Bolivia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2113818", "label": "Quaker State 400", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q203712", "label": "Cook Out 400", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1726780", "label": "Los Angeles Times 500", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q122577316", "label": "Alsco Uniforms 500", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q280739", "label": "Dover 400", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105274163", "label": "Jockey Made in America 250", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q33104303", "label": "concept in physics", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q107984415", "label": "term of reference", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23847174", "label": "religious concept", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q137430548", "label": "engineering concept", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q200230", "label": "classical element", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q33104279", "label": "philosophical concept", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375461", "label": "constituency of the Kerala Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375490", "label": "constituency of the Puducherry Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375467", "label": "constituency of the Maharashtra Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375449", "label": "constituency of the Himachal Pradesh Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375482", "label": "constituency of the Nagaland Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375457", "label": "constituency of the Karnataka Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12570", "label": "suspension bridge", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q537127", "label": "road bridge", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q158438", "label": "arch bridge", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q158555", "label": "cable-stayed bridge", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3397526", "label": "stone bridge", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q976622", "label": "bridge over valley", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1223230", "label": "Roman bridge", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q137341", "label": "NBA All-Star Game", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q786705", "label": "Pro Bowl", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q29144", "label": "National Hockey League All-Star Game", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1069698", "label": "Major League Baseball All-Star Game", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q107549740", "label": "television award category", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19020", "label": "Academy Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1059478", "label": "town of Japan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2711758", "label": "department of Chad", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1639634", "label": "local government area of Nigeria", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1665357", "label": "arrondissement of Haiti", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12479774", "label": "second-level administrative country subdivision in Indonesia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3305339", "label": "building part", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6671777", "label": "structure", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q96382432", "label": "former mosque", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q647704", "label": "tower mill", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1502700", "label": "Genoese towers in Corsica", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q56344492", "label": "artillery battery", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q60673395", "label": "vehicle component", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1637706", "label": "million city", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q200250", "label": "metropolis", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q257391", "label": "federal capital", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q486972", "label": "human settlement", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q515", "label": "city", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q56061", "label": "administrative territorial entity", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q37800986", "label": "Serbian city", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1175522", "label": "County city (council system)", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q60458065", "label": "city in British Columbia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q29045252", "label": "city of South Korea", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q96379152", "label": "ARCA races at Charlotte", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q106946690", "label": "Music City 150", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q96379153", "label": "General Tire 150", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q378806", "label": "Bluegreen Vacations Duel", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1083752", "label": "Rally of Turkey", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q776859", "label": "Rally Argentina", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7270", "label": "republic", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q236036", "label": "republic of the Soviet Union", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q59281", "label": "provisional government", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17152708", "label": "republic regime in France", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q109614735", "label": "communist regime", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19944802", "label": "government structure", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1307214", "label": "form of government", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q192611", "label": "electoral unit", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q59369306", "label": "Council of Tuvalu", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q878040", "label": "division of Bangladesh", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q43791141", "label": "constituency of the National Assembly of Bulgaria", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q50399", "label": "province of Mongolia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q695469", "label": "province of Mozambique", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q188604", "label": "county of Hungary", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q746290", "label": "state of Sudan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7252589", "label": "province of Cambodia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q936955", "label": "parish of Jamaica", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1062710", "label": "municipality of Bolivia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q47320699", "label": "parish of Nicosia Municipality", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q690840", "label": "district of Ethiopia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2292572", "label": "district of Costa Rica", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3677932", "label": "barrio of Puerto Rico", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3492039", "label": "municipality of Nepal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q46525", "label": "Pulitzer Prize", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q132241", "label": "festival", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q27787439", "label": "film festival edition", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q179805", "label": "political philosophy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q180592", "label": "social philosophy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12909644", "label": "political ideology", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1756157", "label": "area of law", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17524420", "label": "aspect of history", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2267705", "label": "field of study", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11862829", "label": "academic discipline", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2465832", "label": "branch of science", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q47521078", "label": "disc golf course", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2064236", "label": "fronton", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4155954", "label": "Palace of Sports", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1759559", "label": "heya", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q14092", "label": "gym", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105957588", "label": "university sports venue", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15634846", "label": "district of Seoul", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18545121", "label": "district of Busan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18545295", "label": "district of Incheon", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q106342591", "label": "new area of the People's Republic of China", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54935504", "label": "city of Switzerland", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5633421", "label": "scientific journal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q773668", "label": "open-access journal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q737498", "label": "academic journal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q627517", "label": "history journal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1791899", "label": "cultural magazine", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q10870555", "label": "report", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q124435065", "label": "geospatial journal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q131569", "label": "treaty", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13366104", "label": "even number", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q184611", "label": "power of 10", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28920044", "label": "positive integer", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1816844", "label": "large number", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28874617", "label": "positive power of ten", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13054561", "label": "rugby union field", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1185865", "label": "Democratic National Convention", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2125658", "label": "radial route", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q37002670", "label": "unicameral legislature", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q31049169", "label": "misidentified chemical element", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105989562", "label": "UNIX 03", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18195680", "label": "shoe style", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q954501", "label": "natural arch", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12031379", "label": "capital of region", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q126456904", "label": "European Parliament election in the United Kingdom", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q875538", "label": "public university", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1767829", "label": "comprehensive university", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q115427560", "label": "University of Excellence", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1916585", "label": "medical university", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q902104", "label": "private university", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1080794", "label": "public school", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17680584", "label": "legislature of a Mexican state", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q320501", "label": "Landtag", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4345591", "label": "regional parliament of Russia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15304628", "label": "parliament of a Canadian province or territory", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2867136", "label": "Canadian legislative assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15816787", "label": "parliament of an Australian state or territory", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11396180", "label": "library branch", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7075", "label": "library", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105763925", "label": "conservation library", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1068842", "label": "footbridge", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q119173778", "label": "integrated management area (Bolivia)", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q221409", "label": "encyclical", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q189867", "label": "papal bull", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q215495", "label": "epistle", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q646754", "label": "open letter", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q554211", "label": "State of the Union address", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1144899", "label": "broadcast television system", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q329864", "label": "military technology", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12333", "label": "IPv6 transition mechanisms", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54006339", "label": "display technology", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1001378", "label": "cinematic technique", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17028492", "label": "hypothetical technology", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q117409264", "label": "type material", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15636229", "label": "surgical procedure", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2671652", "label": "medical test", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q188055", "label": "siege", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11483816", "label": "annual event", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15275719", "label": "recurring event", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q48351111", "label": "judo technique", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q466797", "label": "asana", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20180812", "label": "testing", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q61996437", "label": "sports technique", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5680473", "label": "Hastings Borough Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q8039547", "label": "Wychavon District Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7370415", "label": "Rother District Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5050233", "label": "Castle Point Borough Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7331070", "label": "Richmondshire District Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5261698", "label": "Derbyshire Dales District Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1739545", "label": "nuclear facility", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q83405", "label": "factory", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1662011", "label": "industrial building", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1934961", "label": "dark ride", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1412205", "label": "armory", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1043939", "label": "Carnegie library", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1138826", "label": "Asian Athletics Championships", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2954437", "label": "Asian Junior Athletics Championships", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q106854629", "label": "Asian Invitational Badminton Championships", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q799209", "label": "Badminton Asia Championships", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6631808", "label": "baseball league", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1812109", "label": "UMB World Three-cushion Championship", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11410", "label": "game", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11422", "label": "toy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q188860", "label": "software library", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q891055", "label": "package manager", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q130420294", "label": "state-owned enterprise of New Zealand", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22806", "label": "national library", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q732717", "label": "law enforcement agency", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7835189", "label": "transit district", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28339417", "label": "hybrid solar eclipse", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11086064", "label": "total solar eclipse", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q16466688", "label": "local service district of Newfoundland and Labrador", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1043076", "label": "XML schema", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q42965339", "label": "card", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q50427", "label": "district of Brunei Darussalam", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28532285", "label": "ministry of the GDR", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q126977439", "label": "ministry of Argentina", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q130751276", "label": "ministry of Bhutan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1225300", "label": "dicastery", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17172702", "label": "ministry of Algeria", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q917441", "label": "environment ministry", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21032617", "label": "sea grant institution", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21032622", "label": "space grant institution", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23002039", "label": "public educational institution of the United States", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q615150", "label": "land-grant university", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1075106", "label": "state university system", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q351113", "label": "laboratory school", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q162633", "label": "academy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1076052", "label": "preschool", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q14562709", "label": "London Underground station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q110977120", "label": "Berlin U-Bahn station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q63979268", "label": "people mover station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18516630", "label": "Docklands Light Railway station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q124416148", "label": "underground metro station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q192532", "label": "digital rights management", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1351306", "label": "regional lockout", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q77916592", "label": "static site generator", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7619063", "label": "naval shore establishment", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1312529", "label": "high school diploma", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13533330", "label": "judo at the 2013 Mediterranean Games", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q84326403", "label": "adult camming website", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q27899635", "label": "arena football team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q647230", "label": "net laying ship", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20202390", "label": "public transportation terminus", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q928830", "label": "metro station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22808403", "label": "underground station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11606300", "label": "last station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q863454", "label": "pier", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q953806", "label": "bus stop", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q828909", "label": "wharf", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q16938673", "label": "landing", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17260562", "label": "department of Gran Colombia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3044799", "label": "department of France in Algeria", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q202216", "label": "overseas department and region of France", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q47454980", "label": "provincial electoral district of Newfoundland and Labrador", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105445345", "label": "edition of the Six Nations Championship", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17271186", "label": "Canadian football team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q117103719", "label": "national roller hockey team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q58840819", "label": "national rugby union team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20074337", "label": "auto racing team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6979593", "label": "national association football team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q66817758", "label": "national tennis team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q37988214", "label": "Kentucky state park", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q37999985", "label": "Nebraska state park", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q37930839", "label": "South Carolina state park", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q37940980", "label": "Delaware state park", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q38001326", "label": "Rhode Island state park", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q37956832", "label": "Colorado state park", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28936794", "label": "provincial park in Saskatchewan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1277221", "label": "provincial park of Manitoba", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28971984", "label": "provincial park of Newfoundland and Labrador", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3364923", "label": "national park of Quebec", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15222729", "label": "provincial park of New Brunswick", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7295721", "label": "rating", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4708579", "label": "Alaska Native Regional Corporation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q16274795", "label": "shipbuilding company", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q133215", "label": "casino", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q740752", "label": "transport company", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15991290", "label": "professional sports league", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q25295", "label": "language family", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q949344", "label": "macrofamily", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q337968", "label": "idiom", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1502101", "label": "genetic unit", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1208380", "label": "dialect group", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11820611", "label": "language subfamily", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11489453", "label": "culture collection", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q113303812", "label": "functional territorial area", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q697390", "label": "vegueria", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q33146843", "label": "municipality of Catalonia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q937876", "label": "comarca of Catalonia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q123680441", "label": "municipality of La Rioja", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q123095923", "label": "municipality of Cantabria", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q832778", "label": "campsite", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q27686", "label": "hotel", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q88291", "label": "citadel", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17308006", "label": "island of Japan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q137186904", "label": "transcontinental region", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q29078891", "label": "Cabinet of Lithuania", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4206689", "label": "Government of the Republic of Abkhazia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2746357", "label": "Consejo de Gobierno de la Junta de Andalucía", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2983826", "label": "College of Commissioners", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2613132", "label": "Government of Georgia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23929770", "label": "Cabinet of Indonesia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2531956", "label": "ethnic minority group", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q133311", "label": "tribe", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q431603", "label": "advocacy group", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11197007", "label": "ethnoreligious group", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17150753", "label": "itinerant groups of Europe", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15221215", "label": "rugby league team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q131436", "label": "board game", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q42177", "label": "bed", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1643932", "label": "tabletop role-playing game", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q34379", "label": "musical instrument", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1255828", "label": "controversy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15707521", "label": "fictional battle", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2334719", "label": "legal case", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q10931", "label": "revolution", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q45382", "label": "coup d'état", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q273120", "label": "protest", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105728095", "label": "former congressional district of the Philippines", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1620908", "label": "historical region", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2962488", "label": "defunct railroad of North America", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19953632", "label": "former administrative territorial entity", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7450077", "label": "senatorial district of the Philippines", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22674925", "label": "former settlement", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1104922", "label": "Group Representation Constituency", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5163953", "label": "constituency of the Parliament of Singapore", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q16773343", "label": "constituency of the Mizoram Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375453", "label": "constituency of the Jammu and Kashmir Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21866936", "label": "Boston Society of Film Critics Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q107507525", "label": "Metro Manila Film Festival Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q919525", "label": "British Independent Film Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q163569", "label": "Nickelodeon Kids' Choice Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q795848", "label": "BET Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5570909", "label": "global union federation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15925165", "label": "specialized agency of the United Nations", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q245065", "label": "intergovernmental organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15285626", "label": "organization established by the United Nations", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2300373", "label": "national trade union center", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q27968043", "label": "festival occurrence", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q41582469", "label": "music festival edition", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q114609228", "label": "recurring sporting event edition", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q138029040", "label": "Winter Youth Olympic Games edition", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4504495", "label": "award ceremony", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q107659169", "label": "Africa Movie Academy Awards ceremony", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5329832", "label": "Eastbourne Borough Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7567618", "label": "South Kesteven District Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5041413", "label": "Carlisle City Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7986134", "label": "West Oxfordshire District Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q174814", "label": "electrical substation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q464780", "label": "mint", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q820477", "label": "mine", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1244442", "label": "school building", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q9209474", "label": "auction house", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q159719", "label": "power station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1121471", "label": "paddle steamer", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q16518", "label": "barge", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q683363", "label": "cutter", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1999103", "label": "monohull", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q130326199", "label": "preserved watercraft", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q53062420", "label": "nation in the Junior Eurovision Song Contest", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q109473326", "label": "country in World War II", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q35718073", "label": "nation in the Eurovision Song Contest", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q444456", "label": "hot air balloon festival", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5206574", "label": "DX-pedition", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q112727427", "label": "United States Senate election in Vermont", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q112727404", "label": "United States Senate election in Minnesota", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1878344", "label": "luxury train", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2294018", "label": "color model", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15831596", "label": "class of fictional entities", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1156831", "label": "umbrella organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24529773", "label": "Åland legislative election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28333164", "label": "Philippine Senate election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1402443", "label": "border train station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q55488", "label": "railway station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q122397434", "label": "Q122397434", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1406904", "label": "inter-city rail station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q121844395", "label": "Q121844395", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105038730", "label": "kan'i itaku station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4663385", "label": "former railway station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2954100", "label": "UCI Road World Championships – men's team time trial (trade teams)", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2713747", "label": "division of the Australian House of Representatives", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1195098", "label": "ward", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19409201", "label": "Legislative Yuan constituency", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28007428", "label": "Dáil Éireann constituency", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1853630", "label": "constituency of Namibia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20220333", "label": "electoral district of the Spanish Congress", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q27996466", "label": "Bahnhof (station)", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18543139", "label": "central station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q123094976", "label": "Q123094976", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1147171", "label": "interchange station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1567913", "label": "harbour railway station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q121844689", "label": "contracted station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q67608976", "label": "women's national under-17 association football team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23904672", "label": "national under-16 association football team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23904673", "label": "national under-15 association football team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23901137", "label": "national under-19 association football team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23895910", "label": "national under-20 association football team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q188686", "label": "military occupation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q44782", "label": "port", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q32815", "label": "mosque", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q34627", "label": "synagogue", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q728937", "label": "railway line", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12518", "label": "tower", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q64796768", "label": "High Court of Australia case", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1265353", "label": "war crimes trial", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19692072", "label": "United States Supreme Court decision", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19930933", "label": "decision of the Supreme Court of Canada", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q16738832", "label": "criminal case", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5100735", "label": "Chinese clothing", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q126286955", "label": "philatelic term", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q57305415", "label": "ink stamp", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q129133491", "label": "ethnological term", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q137552198", "label": "cryptologic term", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q66747126", "label": "computer science term", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q77733378", "label": "sports term", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q125037998", "label": "ITU radiocommunication service type", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3068975", "label": "wave power station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q134447", "label": "nuclear power plant", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2298412", "label": "solar power plant", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6558431", "label": "coal-fired power station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1534713", "label": "powership", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15911738", "label": "hydroelectric power station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q878099", "label": "Greek primordial deity", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q113103481", "label": "Olympian god", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q476682", "label": "Anemoi", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q624083", "label": "asura", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q494511", "label": "Devi", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15766", "label": "high mountains", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7887966", "label": "United Kingdom budget", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5030766", "label": "Canadian federal budget", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11688446", "label": "Roman deity", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q484416", "label": "caste", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21562092", "label": "imperative programming language", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q542668", "label": "2010 Fed Cup", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q130249724", "label": "geometric structure", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q76806512", "label": "interstate agreement", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q56185179", "label": "South Australian state election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19828534", "label": "wing", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2451577", "label": "junction station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q131746", "label": "perfume", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q428830", "label": "main group", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1130479", "label": "lithophile", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1850454", "label": "cosmetic palette", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1779868", "label": "combination drug", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q37756", "label": "alloy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3491904", "label": "urban rail transit", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q205585", "label": "Transport express régional", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q124130081", "label": "commuter rail network", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2678338", "label": "railway network", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22667", "label": "railway", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5365007", "label": "Mass Rapid Transit", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5150900", "label": "combined authority", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q941036", "label": "territorial authority of New Zealand", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4321471", "label": "county council", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2989649", "label": "commune of Senegal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7137435", "label": "parish council", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6936225", "label": "Municipal Corporation (India)", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19414242", "label": "metropolitan borough council", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21561306", "label": "non-metropolitan district council", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q110417190", "label": "non-metropolitan county council", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21561328", "label": "unitary authority in England", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21561350", "label": "London borough council", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q110416322", "label": "unitary authority in Wales", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28544871", "label": "sub-metropolitan municipality of Nepal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q55774719", "label": "township municipality in Ontario", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q605291", "label": "municipality of Niger", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1530705", "label": "village development committee of Nepal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2460358", "label": "municipality of Turkey", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1758856", "label": "commune of Mali", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12624746", "label": "administrative city in South Korea", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11233245", "label": "list of capitals in South Korea", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15901936", "label": "district of South Korea", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q490329", "label": "dong of South Korea", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24024848", "label": "eup of South Korea", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4925355", "label": "province of South Korea", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1353183", "label": "launch pad", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18691599", "label": "military installation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q190157", "label": "radio transmitter", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3947", "label": "house", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q843360", "label": "Maccabiah Games", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4127370", "label": "World Combat Games", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1117077", "label": "Commonwealth Youth Games", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q59134402", "label": "international rugby union competition", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1134131", "label": "European Youth Olympic Festival", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2231681", "label": "World Archery Championships", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q66661665", "label": "governorate of Saudi Arabia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q318727", "label": "municipality of Nicaragua", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q867567", "label": "governorate of Jordan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5163951", "label": "constituency of Belize", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2177636", "label": "municipality of Denmark", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4861618", "label": "Barnet London Borough Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5683838", "label": "Havering London Borough Council election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15134891", "label": "state-integrated school", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2305295", "label": "weekly newspaper", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24178659", "label": "Cook Islands general election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2098155", "label": "planetary orbit", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q597668", "label": "shallow column station", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q113791292", "label": "animated short film series", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q722659", "label": "graph property", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2393196", "label": "personality trait", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20180868", "label": "seismic scale", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q832161", "label": "financial ratio", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7123018", "label": "packhorse bridge", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q39486269", "label": "railway viaduct", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1744559", "label": "classification in sports", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28053864", "label": "Citra awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q223573", "label": "barony", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1343179", "label": "tor", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54050", "label": "hill", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2459045", "label": "granite dome", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2983016", "label": "colles", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q108060573", "label": "natural monument", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20743942", "label": "lacuna", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13057942", "label": "Bangladesh National Film Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q96474680", "label": "award for best artistic direction", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18772252", "label": "pornographic film award", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11700336", "label": "Silver Condor Award", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3524248", "label": "Vijay Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q40024", "label": "Satellite Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q110145", "label": "MTV Movie & TV Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1359606", "label": "Guldbagge Awards", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q382780", "label": "Nandi Award", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q771035", "label": "traditional medicine", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2990963", "label": "figure skating competition", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3062294", "label": "Latin phrase", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q190928", "label": "shipyard", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q34841310", "label": "Government of the Kingdom of Sardinia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q958314", "label": "grape variety", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q111365413", "label": "Israeli government ministry", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q111179247", "label": "ministry of Malaysia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q112818479", "label": "ministry of Singapore", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q134301525", "label": "ministry of Uruguay", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q107802886", "label": "Ottoman executive department", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q29154550", "label": "verse of the Bible", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q108300140", "label": "occupation group according to ISCO-08", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q49614", "label": "nickname", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q846659", "label": "Jewish cemetery", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7246143", "label": "Private Natural Heritage Reserve", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1685451", "label": "student society", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q955824", "label": "learned society", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q829080", "label": "professional association", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7603194", "label": "State Emergency Service", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1779527", "label": "Studentenverbindung", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5774403", "label": "historical society", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7278", "label": "political party", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q627189", "label": "labour party", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24649", "label": "European political party", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q47717875", "label": "state level Indian political party", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15401699", "label": "archaeological age", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q25401445", "label": "decimal currency", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1403377", "label": "franc", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q673383", "label": "stamp series", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22999537", "label": "vehicle family", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q120451300", "label": "integrated circuit series", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15142889", "label": "weapon family", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q27043990", "label": "LEGO theme", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q632300", "label": "automobile platform", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q9363686", "label": "lake type", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17155032", "label": "software category", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7860960", "label": "type of restaurant", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18487018", "label": "missile family", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18189", "label": "educational stage", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q44580842", "label": "medical device type", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4498974", "label": "ice hockey team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20784907", "label": "motorcycle racing team", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q324233", "label": "torpedo boat", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q843215", "label": "missile boat", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4295041", "label": "torpedo cruiser", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11479409", "label": "offshore patrol vessel", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2141016", "label": "torpedo gunboat", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q98151017", "label": "river gunboat", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3354110", "label": "Cabinet of Iceland", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2665914", "label": "Northern Ireland Executive", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3058576", "label": "Council of Ministers of Spain", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q112014", "label": "Cabinet of the United Kingdom", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q873368", "label": "Cabinet of Thailand", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6567964", "label": "Council of Ministers of Nepal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q43109", "label": "referendum", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1196663", "label": "recall election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q152450", "label": "municipal election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q40231", "label": "public election", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1214249", "label": "plebiscite", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1631129", "label": "hotel chain", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q76212517", "label": "café chain", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18654742", "label": "pizzeria chain", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18509232", "label": "fast food restaurant chain", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28819924", "label": "political alignment", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q88173204", "label": "flag day in Finland", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q14911880", "label": "Catholic seminary", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3914", "label": "school", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q576603", "label": "Bible college", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1138671", "label": "Catholic school", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6566418", "label": "Catholic particular church sui iuris", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q121314485", "label": "film academy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1130645", "label": "open-source software", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q920890", "label": "mobile operating system", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q341", "label": "free software", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q210980", "label": "virtual community", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6470767", "label": "assembler", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2441645", "label": "sound format", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1789452", "label": "criterion", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q759853", "label": "film format", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q107356781", "label": "song type", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20198160", "label": "lossy audio coding format", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1347367", "label": "aptitude", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2500378", "label": "department of the United Kingdom Government", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q327333", "label": "government agency", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15409298", "label": "Ministries of Japan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q110636698", "label": "ministries of Denmark", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q127413860", "label": "ministry of Jamaica", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5916", "label": "spaceflight", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q81941037", "label": "product distribution method", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q831663", "label": "military campaign", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q680838", "label": "ambush", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18608583", "label": "recurring sporting event", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375498", "label": "constituency of the Rajasthan Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375465", "label": "constituency of the Madhya Pradesh Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54375418", "label": "constituency of the Arunachal Pradesh Legislative Assembly", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q136995447", "label": "research data collaboration initiative", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q136995466", "label": "recurring survey research project", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24577212", "label": "citizen science project", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q748019", "label": "scientific society", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2281788", "label": "public aquarium", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q10498148", "label": "research council", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18226756", "label": "Landtag electoral district", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q26714837", "label": "former New Zealand electorate", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q41760643", "label": "constituency of the Parliament of the Republic of Ghana", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3076994", "label": "commune of Cameroon", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q59081206", "label": "constituency of the National Parliament of Solomon Islands", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q110013851", "label": "type of theatrical work", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5253026", "label": "syntactic category", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q107357104", "label": "type of dance", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q121144069", "label": "type of statistical method", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q121132955", "label": "type of mass media", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3110694", "label": "alternative tourism", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q98374854", "label": "tourism in a region", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3319996", "label": "flight testing", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15921693", "label": "test flight", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q175582", "label": "Egyptian pyramids", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q140588", "label": "typhoon", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19292005", "label": "harbor tugboat", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1361551", "label": "lifeboat", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3534474", "label": "Chundan Vallam", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1190275", "label": "fireboat", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q443802", "label": "luxury yacht", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q31883730", "label": "ship breaking yard", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1745026", "label": "naval arsenal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12812333", "label": "Cabinet of Turkey", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2493450", "label": "juvenile political organization", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q22704163", "label": "firearm model", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q104758804", "label": "torpedo model", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q124056273", "label": "artillery model", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18487055", "label": "missile model", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q42314054", "label": "ammunition model", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q63040754", "label": "multiple unit class", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q628993", "label": "district of the canton of Valais", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q55193935", "label": "Constituency of Kenya", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q136093601", "label": "constituency of the Legislative Assembly of Singapore", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q48406342", "label": "constituency in Norway", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q108037652", "label": "audio release format", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q63981612", "label": "product category", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q82036085", "label": "physical media format", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q97380911", "label": "color feature", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q185957", "label": "quality", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q956318", "label": "designated place of Canada", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q59341087", "label": "town in Nova Scotia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q130627673", "label": "city in Saskatchewan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q14762890", "label": "regional municipality of Ontario", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q56242250", "label": "Anglican or Episcopal cathedral", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q56242235", "label": "Lutheran cathedral", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q160742", "label": "abbey", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q744296", "label": "wooden church", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q427287", "label": "wat", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q131087460", "label": "kite festival", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q28869447", "label": "comics award", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q172754", "label": "world's fair", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q53945096", "label": "group during sports competition", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q10864048", "label": "first-level administrative division", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q200547", "label": "county of Sweden", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q38911", "label": "region of the Czech Republic", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q261023", "label": "district of Vienna", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q185086", "label": "Crown Dependencies", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1776764", "label": "county of Romania", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q223706", "label": "nome", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4370308", "label": "regiment", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q672490", "label": "deme", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17468533", "label": "former municipality of Finland", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3685476", "label": "abolished municipality in Italy", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2991489", "label": "county palatine", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2143354", "label": "insurance company", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q112865922", "label": "historical car manufacturer", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2416723", "label": "theme park", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6043159", "label": "casino hotel", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q112046", "label": "transmission system operator for electricity", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11396960", "label": "production company", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q83155724", "label": "UCUM constant", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1371562", "label": "unit of area", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q82047053", "label": "UCUM base unit", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q15222637", "label": "unit of speed", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q328584", "label": "municipality of Slovenia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q57053", "label": "county of Croatia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q18592110", "label": "province of the Maldives", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q831889", "label": "district of Bhutan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1146429", "label": "canton of Luxembourg", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q583488", "label": "air filter", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3551519", "label": "university in Quebec", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1792571", "label": "art prize", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1807108", "label": "shipping line", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5383806", "label": "eponymous hairstyle", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q159954", "label": "caldera", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q332614", "label": "supervolcano", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1161185", "label": "volcanic island", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q119253", "label": "oceanic trench", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q204324", "label": "volcanic crater lake", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q105131", "label": "hotspot", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q39816", "label": "valley", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q61702557", "label": "moon of Jupiter", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2139", "label": "moon of Neptune", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2152", "label": "moon of Uranus", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1972", "label": "moon of Saturn", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1153392", "label": "S-type star", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1547772", "label": "navigational star", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3024240", "label": "historical country", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2418896", "label": "part of the world", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q353344", "label": "countship", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7840289", "label": "tribal council", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q13414761", "label": "county of Oregon", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q55341040", "label": "video game database", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q72398691", "label": "video game news website", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3077240", "label": "forge", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q4117139", "label": "biological database", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1414426", "label": "film database", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q130735522", "label": "online film database", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q129740132", "label": "board game database", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q288653", "label": "league", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1045608", "label": "prefecture", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q250811", "label": "sub-province-level division", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q788104", "label": "autonomous prefecture", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q748149", "label": "prefecture-level city", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q41014950", "label": "ChEBI Ontology term", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2135465", "label": "legal term or legal concept", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q12812139", "label": "specialized term", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q210588", "label": "umbrella term", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q124676527", "label": "protected term", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q25397890", "label": "type of library", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q23702033", "label": "category in the Köppen climate classification systems", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q137393561", "label": "type of park", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q836985", "label": "car classification", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1060829", "label": "concert hall", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1763828", "label": "multi-purpose hall", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q24354", "label": "theatre building", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q622425", "label": "nightclub", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q153562", "label": "opera house", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3469910", "label": "performing arts center", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q5061188", "label": "house of culture", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1162751", "label": "Government of Hungary", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1140115", "label": "Government of Russia", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q313827", "label": "Government of the Federal Republic of Germany", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2366737", "label": "Finnish Government", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q21686038", "label": "Cabinet of Kazakhstan", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1450662", "label": "Government of the French Republic", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1389604", "label": "unitary enterprise", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q837766", "label": "local authority", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1131296", "label": "freguesia of Portugal", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q157031", "label": "foundation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q54445847", "label": "type of economic interaction", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q627436", "label": "field of work", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q110562117", "label": "type of television program", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q44409287", "label": "type of machine element", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q20031543", "label": "aircraft undercarriage class", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q56887437", "label": "bus type", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19845316", "label": "type of cryptographic attack", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7692360", "label": "volcanic eruption", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6624990", "label": "locust plague", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7944", "label": "earthquake", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q167903", "label": "landslide", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q3199915", "label": "massacre", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q178561", "label": "battle", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q602446", "label": "lyrics", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q87167", "label": "manuscript", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2298050", "label": "text types", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q131084", "label": "libretto", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1503450", "label": "mesoregion of Brazil", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q682944", "label": "microregion of Brazil", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q19730508", "label": "former municipality", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q202156", "label": "province of Ireland", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q2197893", "label": "chine", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q718893", "label": "theater of war", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1323642", "label": "transcontinental country", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q113393649", "label": "cratonym", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q127693126", "label": "successor state", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1335818", "label": "supranational union", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q160016", "label": "member states of the United Nations", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q17007978", "label": "counterintelligence state", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q43702", "label": "federation", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q512187", "label": "federal republic", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q6688521", "label": "permanent members of the United Nations Security Council", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q7275", "label": "state", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q842112", "label": "socialist state", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q849866", "label": "communist state", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q859563", "label": "secular state", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q11396118", "label": "divided territory", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q123480", "label": "landlocked country", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q112099", "label": "island country", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q1093720", "label": "real union", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
+{"qid": "Q66724388", "label": "autonomous country within the Kingdom of Denmark", "description": "", "parents": [], "_artifact_scope": "contract-smoke-only"}
