@@ -3,13 +3,17 @@ import json
 import random
 from pathlib import Path
 from typing import Dict, List, Optional
-from pathlib import Path
 import logging
 
-from torch.utils.data import Dataset
+try:
+    from torch.utils.data import Dataset
+except (ImportError, OSError):
+    class Dataset:  # Allows CPU-only schema validation without a Torch runtime.
+        pass
 
 from .data_types import OntologyType, TrainSample
 from .input_format import format_query, format_type
+from .schema_v2 import iter_jsonl_records, normalize_ignored_qids, normalize_positive_qids
 
 logger = logging.getLogger(__name__)
 
@@ -37,7 +41,7 @@ class CTADataset(Dataset):
 
         # Load ontology
         self.ontology: Dict[str, OntologyType] = {}
-        with open(ontology_path) as f:
+        with open(ontology_path, encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
                 if not line:
@@ -60,7 +64,7 @@ class CTADataset(Dataset):
         # Key is f"{table_id}___{col_index}"
         mined_negs: Dict[str, List[str]] = {}
         if hard_neg_path and Path(hard_neg_path).exists():
-            with open(hard_neg_path) as f:
+            with open(hard_neg_path, encoding="utf-8") as f:
                 mined_negs = json.load(f)
             logger.info(
                 "Loaded mined hard negatives for %d samples", len(mined_negs)
@@ -69,32 +73,35 @@ class CTADataset(Dataset):
         # Load training samples
         raw_samples = []
         missing_types = set()
-        with open(train_path) as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                d = json.loads(line)
-                pos_qid = d["positive_type_qid"]
-
-                if pos_qid not in self.ontology:
-                    missing_types.add(pos_qid)
-                    continue
-
-                # Filter low majority ratio
-                if d.get("majority_ratio", 1.0) < min_majority_ratio:
-                    continue
-
-                raw_samples.append(d)
+        skipped_missing_type_samples = 0
+        for d in iter_jsonl_records(train_path):
+            positive_qids = [
+                qid for qid in normalize_positive_qids(d)
+                if qid in self.ontology and self.ontology[qid].label
+            ]
+            if not positive_qids:
+                missing_types.update(normalize_positive_qids(d))
+                skipped_missing_type_samples += 1
+                continue
+            if d.get("majority_ratio", 1.0) < min_majority_ratio:
+                continue
+            d = dict(d)
+            d["_valid_positive_qids"] = positive_qids
+            d["_valid_primary_qid"] = (
+                d["positive_type_qid"]
+                if d["positive_type_qid"] in positive_qids
+                else positive_qids[0]
+            )
+            raw_samples.append(d)
 
         # Filter low-frequency types
         if min_type_count > 1:
             from collections import Counter
-            type_counts = Counter(d["positive_type_qid"] for d in raw_samples)
+            type_counts = Counter(d["_valid_primary_qid"] for d in raw_samples)
             before = len(raw_samples)
             raw_samples = [
                 d for d in raw_samples
-                if type_counts[d["positive_type_qid"]] >= min_type_count
+                if type_counts[d["_valid_primary_qid"]] >= min_type_count
             ]
             logger.info(
                 "Type count filter (min=%d): %d → %d samples",
@@ -105,7 +112,9 @@ class CTADataset(Dataset):
         self.samples: List[TrainSample] = []
         n_mined = 0
         for d in raw_samples:
-            pos_qid  = d["positive_type_qid"]
+            positive_qids = d["_valid_positive_qids"]
+            pos_qid = d["_valid_primary_qid"]
+            excluded_qids = set(positive_qids) | set(normalize_ignored_qids(d))
             table_id = d.get("table_id", "")
             col_idx  = d.get("col_index", -1)
             key      = f"{table_id}___{col_idx}"
@@ -115,25 +124,28 @@ class CTADataset(Dataset):
                 neg_qids = [
                     q for q in mined_negs[key]
                     if q in self.ontology and self.ontology[q].label
+                    and q not in excluded_qids
                 ]
                 n_mined += 1
             else:
                 neg_qids = [
                     q for q in d.get("hard_negative_type_qids", [])
-                    if q in self.ontology
+                    if q in self.ontology and q not in excluded_qids
                 ]
+            neg_qids = list(dict.fromkeys(neg_qids))
 
             self.samples.append(TrainSample(
                 anchor_header=d["anchor_header"],
                 anchor_cells=d["anchor_cells"],
                 positive_qid=pos_qid,
                 hard_negative_qids=neg_qids,
+                positive_qids=positive_qids,
             ))
 
         if missing_types:
             logger.warning(
-                "Skipped %d samples: positive type not in ontology",
-                len(missing_types),
+                "Skipped %d samples (%d distinct QIDs): no positive type in ontology",
+                skipped_missing_type_samples, len(missing_types),
             )
         logger.info(
             "Loaded %d training samples  "
@@ -161,16 +173,22 @@ class CTADataset(Dataset):
             cells = self.rng.sample(cells, k)
 
         query_text = format_query(header, cells, self.max_cells)
-        pos_type   = self.ontology[s.positive_qid]
-        pos_text   = format_type(pos_type, self.max_parents)
+        pos_qids = s.all_positive_qids()
+        pos_texts = [
+            format_type(self.ontology[qid], self.max_parents)
+            for qid in pos_qids
+        ]
         neg_texts  = [
             format_type(self.ontology[q], self.max_parents)
             for q in s.hard_negative_qids
         ]
         return {
             "query_text": query_text,
-            "pos_text":   pos_text,
+            "pos_text": pos_texts[0],
+            "pos_texts": pos_texts,
+            "pos_qids": pos_qids,
             "neg_texts":  neg_texts,
+            "neg_qids": s.hard_negative_qids,
         }
 
 
@@ -181,7 +199,17 @@ class CTACollator:
 
     def __call__(self, batch: List[dict]) -> dict:
         query_texts = [b["query_text"] for b in batch]
-        pos_texts   = [b["pos_text"]   for b in batch]
+        pos_texts_flat: List[str] = []
+        pos_qids_flat: List[str] = []
+        positive_qid_sets: List[List[str]] = []
+        pos_counts: List[int] = []
+        for item in batch:
+            texts = item.get("pos_texts") or [item["pos_text"]]
+            qids = item.get("pos_qids") or []
+            pos_texts_flat.extend(texts)
+            pos_qids_flat.extend(qids)
+            positive_qid_sets.append(qids)
+            pos_counts.append(len(texts))
 
         # Collect all hard negatives; record how many each sample has
         neg_texts_flat: List[str] = []
@@ -200,12 +228,15 @@ class CTACollator:
             )
 
         query_enc = tokenize(query_texts)
-        pos_enc   = tokenize(pos_texts)
+        pos_enc   = tokenize(pos_texts_flat)
         neg_enc   = tokenize(neg_texts_flat) if neg_texts_flat else None
 
         return {
             "query_enc": query_enc,
             "pos_enc":   pos_enc,
+            "pos_counts": pos_counts,
+            "positive_qid_sets": positive_qid_sets,
+            "positive_qids_flat": pos_qids_flat,
             "neg_enc":   neg_enc,
             "neg_counts": neg_counts,
         }

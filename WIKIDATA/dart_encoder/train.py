@@ -3,14 +3,8 @@ import argparse, json, logging, random
 from pathlib import Path
 from typing import List
 
-import torch
-import torch.nn as nn
-from torch.utils.data import DataLoader
-from transformers import AutoTokenizer, get_cosine_schedule_with_warmup
-
 from .data_types import TrainSample
-from .dataset import CTADataset, CTACollator
-from .model import BiEncoder, evaluate_recall
+from .schema_v2 import iter_jsonl_records, normalize_positive_qids
 
 
 logging.basicConfig(
@@ -23,6 +17,13 @@ logger = logging.getLogger("train")
 
 ## train DART Encoder
 def train(args):
+    import torch
+    import torch.nn as nn
+    from torch.utils.data import DataLoader
+    from transformers import AutoTokenizer, get_cosine_schedule_with_warmup
+    from .dataset import CTADataset, CTACollator
+    from .model import BiEncoder, evaluate_recall
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     logger.info("Device: %s", device)
 
@@ -62,15 +63,15 @@ def train(args):
     # Validation samples (load separately, no collation needed)
     val_samples: List[TrainSample] = []
     if args.val_path:
-        with open(args.val_path) as f:
-            for line in f:
-                d = json.loads(line)
-                val_samples.append(TrainSample(
-                    anchor_header=d["anchor_header"],
-                    anchor_cells=d["anchor_cells"],
-                    positive_qid=d["positive_type_qid"],
-                    hard_negative_qids=d.get("hard_negative_type_qids", []),
-                ))
+        for d in iter_jsonl_records(args.val_path):
+            positive_qids = normalize_positive_qids(d)
+            val_samples.append(TrainSample(
+                anchor_header=d["anchor_header"],
+                anchor_cells=d["anchor_cells"],
+                positive_qid=d["positive_type_qid"],
+                hard_negative_qids=d.get("hard_negative_type_qids", []),
+                positive_qids=positive_qids,
+            ))
         logger.info("Loaded %d validation samples", len(val_samples))
 
     # Optimizer & scheduler
@@ -105,7 +106,15 @@ def train(args):
                 else None
             )
 
-            loss = model(query_enc, pos_enc, neg_enc, batch["neg_counts"])
+            loss = model(
+                query_enc,
+                pos_enc,
+                neg_enc,
+                batch["neg_counts"],
+                pos_counts=batch["pos_counts"],
+                positive_qid_sets=batch["positive_qid_sets"],
+                positive_qids_flat=batch["positive_qids_flat"],
+            )
             loss.backward()
 
             nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
@@ -160,10 +169,12 @@ def train(args):
 
 
 
-def parse_args():
+def parse_args(argv=None):
     p = argparse.ArgumentParser(description="Train DART bi-encoder retrieval model")
-    p.add_argument("--train_path",    required=True,  help="Path to train.jsonl")
-    p.add_argument("--val_path",      default=None,   help="Path to val.jsonl")
+    p.add_argument("--train_path", required=True,
+                   help="JSONL file, shard directory, or glob")
+    p.add_argument("--val_path", default=None,
+                   help="Validation JSONL file, directory, or glob")
     p.add_argument("--ontology_path", required=True,  help="Path to ontology_types.jsonl")
     p.add_argument("--output_dir",    required=True,  help="Output directory")
     p.add_argument("--model_name",    default="intfloat/multilingual-e5-base")
@@ -193,12 +204,13 @@ def parse_args():
                    help="Path to mined hard negatives JSON (from mine_hard_negatives.py)")
     p.add_argument("--gradient_checkpointing", action="store_true",
                    help="Enable gradient checkpointing to save GPU memory")
-    return p.parse_args()
+    return p.parse_args(argv)
 
 
 if __name__ == "__main__":
     args = parse_args()
 
+    import torch
     random.seed(args.seed)
     torch.manual_seed(args.seed)
     if torch.cuda.is_available():

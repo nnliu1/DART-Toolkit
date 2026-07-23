@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import List, Optional, Dict
+from typing import Dict, List, Optional
 
 import torch
 import torch.nn as nn
@@ -8,6 +8,58 @@ from transformers import AutoModel
 
 from .data_types import OntologyType, TrainSample
 from .input_format import format_query, format_type
+from .loss_utils import build_positive_mask_rows
+
+
+def multi_positive_contrastive_loss(
+    q_emb: torch.Tensor,
+    pos_emb: torch.Tensor,
+    pos_counts: List[int],
+    positive_qid_sets: List[List[str]],
+    temperature,
+    *,
+    positive_qids_flat: Optional[List[str]] = None,
+    neg_emb: Optional[torch.Tensor] = None,
+    neg_counts: Optional[List[int]] = None,
+) -> torch.Tensor:
+    """Multi-positive InfoNCE plus query-specific explicit negatives."""
+    scale = temperature.clamp(min=1e-4) if isinstance(
+        temperature, torch.Tensor
+    ) else max(float(temperature), 1e-4)
+    logits = q_emb @ pos_emb.T / scale
+    mask_rows = build_positive_mask_rows(
+        pos_counts, positive_qid_sets, positive_qids_flat
+    )
+    positive_mask = torch.tensor(
+        mask_rows, dtype=torch.bool, device=logits.device
+    )
+    if not positive_mask.any(dim=1).all():
+        raise ValueError("Every query must have at least one positive")
+    positive_logits = logits.masked_fill(~positive_mask, float("-inf"))
+    loss_inbatch = -(
+        torch.logsumexp(positive_logits, dim=1)
+        - torch.logsumexp(logits, dim=1)
+    ).mean()
+    if neg_emb is None or not neg_counts or sum(neg_counts) == 0:
+        return loss_inbatch
+    pos_splits = torch.split(pos_emb, pos_counts, dim=0)
+    neg_splits = torch.split(neg_emb, neg_counts, dim=0)
+    hard_losses = []
+    for query, positives, negatives in zip(q_emb, pos_splits, neg_splits):
+        if negatives.shape[0] == 0:
+            continue
+        positive_scores = query.unsqueeze(0) @ positives.T / scale
+        negative_scores = query.unsqueeze(0) @ negatives.T / scale
+        hard_losses.append(-(
+            torch.logsumexp(positive_scores, dim=1)
+            - torch.logsumexp(
+                torch.cat([positive_scores, negative_scores], dim=1), dim=1
+            )
+        ).squeeze(0))
+    return (
+        loss_inbatch + torch.stack(hard_losses).mean()
+        if hard_losses else loss_inbatch
+    )
 
 
 class BiEncoder(nn.Module):
@@ -24,11 +76,11 @@ class BiEncoder(nn.Module):
         self.temperature = nn.Parameter(torch.tensor(temperature))
 
     def mean_pool(self, model_output, attention_mask) -> torch.Tensor:
-        token_embeddings = model_output.last_hidden_state          # (B, T, H)
-        mask = attention_mask.unsqueeze(-1).float()                 # (B, T, 1)
-        summed = (token_embeddings * mask).sum(dim=1)               # (B, H)
-        counts = mask.sum(dim=1).clamp(min=1e-9)                    # (B, 1)
-        return summed / counts                                       # (B, H)
+        token_embeddings = model_output.last_hidden_state
+        mask = attention_mask.unsqueeze(-1).float()
+        summed = (token_embeddings * mask).sum(dim=1)
+        counts = mask.sum(dim=1).clamp(min=1e-9)
+        return summed / counts
 
     def encode(self, encoding: dict) -> torch.Tensor:
         out = self.encoder(**encoding)
@@ -41,48 +93,25 @@ class BiEncoder(nn.Module):
         pos_enc: dict,
         neg_enc: Optional[dict],
         neg_counts: List[int],
+        pos_counts: Optional[List[int]] = None,
+        positive_qid_sets: Optional[List[List[str]]] = None,
+        positive_qids_flat: Optional[List[str]] = None,
     ) -> torch.Tensor:
-        q_emb   = self.encode(query_enc)                            # (B, H)
-        pos_emb = self.encode(pos_enc)                              # (B, H)
+        q_emb = self.encode(query_enc)
+        pos_emb = self.encode(pos_enc)
+        pos_counts = pos_counts or [1] * len(q_emb)
+        positive_qid_sets = positive_qid_sets or [[] for _ in range(len(q_emb))]
+        neg_emb = (
+            self.encode(neg_enc)
+            if neg_enc is not None and sum(neg_counts) > 0 else None
+        )
+        return multi_positive_contrastive_loss(
+            q_emb, pos_emb, pos_counts, positive_qid_sets, self.temperature,
+            positive_qids_flat=positive_qids_flat,
+            neg_emb=neg_emb,
+            neg_counts=neg_counts,
+        )
 
-        # In-batch negatives: all positive embeddings serve as negatives
-        # for every other query in the batch.
-        # Shape: (B, B) — diagonal is positive
-        sim_matrix = torch.matmul(q_emb, pos_emb.T) / self.temperature.clamp(min=1e-4)
-        labels = torch.arange(len(q_emb), device=q_emb.device)
-        loss_inbatch = F.cross_entropy(sim_matrix, labels)
-
-        # Static hard negatives loss
-        loss_hard = torch.tensor(0.0, device=q_emb.device)
-        if neg_enc is not None and sum(neg_counts) > 0:
-            neg_emb = self.encode(neg_enc)                          # (N_total, H)
-
-            # Split per sample
-            neg_emb_list = torch.split(neg_emb, neg_counts, dim=0)
-
-            hard_losses = []
-            for i, (q, p, negs) in enumerate(
-                zip(q_emb, pos_emb, neg_emb_list)
-            ):
-                if negs.shape[0] == 0:
-                    continue
-                # Concatenate positive and negatives: [pos, neg1, neg2, ...]
-                candidates = torch.cat([p.unsqueeze(0), negs], dim=0)  # (1+K, H)
-                scores = (q.unsqueeze(0) @ candidates.T) / self.temperature.clamp(min=1e-4)
-                # Label 0 = positive
-                target = torch.zeros(1, dtype=torch.long, device=q_emb.device)
-                hard_losses.append(F.cross_entropy(scores, target))
-
-            if hard_losses:
-                loss_hard = torch.stack(hard_losses).mean()
-
-        # Combine losses with equal weight
-        loss = loss_inbatch + loss_hard
-        return loss
-
-
-
-## evaluation helpers
 
 @torch.no_grad()
 def evaluate_recall(
@@ -101,54 +130,40 @@ def evaluate_recall(
 
     def tokenize(texts):
         return {
-            k: v.to(device)
-            for k, v in tokenizer(
-                texts,
-                padding=True,
-                truncation=True,
-                max_length=max_length,
-                return_tensors="pt",
+            key: value.to(device)
+            for key, value in tokenizer(
+                texts, padding=True, truncation=True,
+                max_length=max_length, return_tensors="pt",
             ).items()
         }
 
-    # Build type pool embeddings
-    all_qids   = list(ontology.keys())
-    all_texts  = [format_type(ontology[q], max_parents) for q in all_qids]
-    type_embs  = []
-
-    for i in range(0, len(all_texts), batch_size):
-        batch_texts = all_texts[i : i + batch_size]
-        enc = tokenize(batch_texts)
-        emb = model.encode(enc)
-        type_embs.append(emb.cpu())
-
-    type_embs  = torch.cat(type_embs, dim=0)                       # (N_types, H)
-    qid_to_idx = {q: i for i, q in enumerate(all_qids)}
-
-    # Encode queries and compute recall
+    all_qids = list(ontology)
+    all_texts = [format_type(ontology[qid], max_parents) for qid in all_qids]
+    type_embs = []
+    for start in range(0, len(all_texts), batch_size):
+        type_embs.append(model.encode(tokenize(all_texts[start:start + batch_size])).cpu())
+    type_embs = torch.cat(type_embs, dim=0)
+    qid_to_idx = {qid: index for index, qid in enumerate(all_qids)}
     hits = {k: 0 for k in k_values}
     total = 0
-
-    for i in range(0, len(val_samples), batch_size):
-        batch = val_samples[i : i + batch_size]
-        query_texts = [
-            format_query(s.anchor_header, s.anchor_cells, max_cells)
-            for s in batch
+    for start in range(0, len(val_samples), batch_size):
+        batch = val_samples[start:start + batch_size]
+        queries = [
+            format_query(sample.anchor_header, sample.anchor_cells, max_cells)
+            for sample in batch
         ]
-        enc    = tokenize(query_texts)
-        q_embs = model.encode(enc).cpu()                            # (B, H)
-
-        scores = q_embs @ type_embs.T                               # (B, N_types)
-
-        for j, s in enumerate(batch):
-            pos_idx = qid_to_idx.get(s.positive_qid)
-            if pos_idx is None:
+        scores = model.encode(tokenize(queries)).cpu() @ type_embs.T
+        for row, sample in enumerate(batch):
+            positive_indices = {
+                qid_to_idx[qid] for qid in sample.all_positive_qids()
+                if qid in qid_to_idx
+            }
+            if not positive_indices:
                 continue
-            ranked = scores[j].argsort(descending=True).tolist()
+            ranked = scores[row].argsort(descending=True).tolist()
             for k in k_values:
-                if pos_idx in ranked[:k]:
+                if positive_indices.intersection(ranked[:k]):
                     hits[k] += 1
             total += 1
-
     model.train()
     return {f"Recall@{k}": hits[k] / max(total, 1) for k in k_values}
