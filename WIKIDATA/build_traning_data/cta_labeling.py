@@ -13,6 +13,7 @@ class ColumnTypeInference:
     primary_qid: str
     primary_coverage: float
     positive_qids: List[str]
+    evidence_qids: List[str]
     support: Dict[str, float]
     entity_counts: Dict[str, int]
     num_typed_entities: int
@@ -71,6 +72,7 @@ def infer_column_types(
         primary_qid=primary_qid,
         primary_coverage=primary_coverage,
         positive_qids=positive_qids,
+        evidence_qids=[qid for qid, _ in ranked],
         support={qid: support[qid] for qid in positive_qids},
         entity_counts=dict(ranked),
         num_typed_entities=typed_entities,
@@ -151,14 +153,23 @@ class HardNegativeMiner:
     ) -> List[str]:
         excluded = set(excluded_qids or ()) | {positive_qid}
         candidates: List[str] = []
-        for pool in (sorted(self._siblings(positive_qid)),
-                     sorted(self._cousins(positive_qid))):
-            for qid in pool:
-                if qid not in excluded and qid not in candidates:
-                    candidates.append(qid)
+        for pool in (
+            sorted(self._siblings(positive_qid)),
+            sorted(self._cousins(positive_qid)),
+        ):
+            safe_pool = [
+                qid for qid in pool
+                if qid not in excluded and qid not in candidates
+            ]
+            remaining = self._num_negatives - len(candidates)
+            if remaining <= 0:
+                break
+            candidates.extend(
+                self._rng.sample(safe_pool, min(remaining, len(safe_pool)))
+            )
 
         if len(candidates) >= self._num_negatives:
-            return self._rng.sample(candidates, self._num_negatives)
+            return candidates
 
         fallback_pool = [
             qid for qid in self._global_pool

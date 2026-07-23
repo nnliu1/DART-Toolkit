@@ -60,7 +60,7 @@ from tqdm import tqdm
 # kgdata imports
 # FIX 1: get_class_db does not exist; correct name is get_wdclass_db
 # ---------------------------------------------------------------------------
-from kgdata.wikidata.db import get_entity_db, get_entity_label_db, get_wdclass_db
+import kgdata.wikidata.db as wd_db
 from kgdata.wikipedia.models.linked_html_table import LinkedHTMLTable
 
 try:
@@ -77,6 +77,43 @@ except ImportError:
         collect_ancestors,
         infer_column_types,
     )
+
+try:
+    from .kgdata_compat import (
+        open_wikidata_databases,
+        resolve_class_db_factory,
+        resolve_label_entry,
+    )
+except ImportError:
+    from kgdata_compat import (
+        open_wikidata_databases,
+        resolve_class_db_factory,
+        resolve_label_entry,
+    )
+
+try:
+    from .table_safety import safe_get_cell, select_primary_link
+except ImportError:
+    from table_safety import safe_get_cell, select_primary_link
+
+try:
+    from .column_safety import (
+        filter_compatible_types,
+        header_is_informative,
+        header_type_is_blocked,
+        normalize_header,
+    )
+except ImportError:
+    from column_safety import (
+        filter_compatible_types,
+        header_is_informative,
+        header_type_is_blocked,
+        normalize_header,
+    )
+
+get_entity_db = wd_db.get_entity_db
+get_entity_label_db = wd_db.get_entity_label_db
+get_class_db = resolve_class_db_factory(wd_db)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -120,25 +157,6 @@ class TrainingExample:
     table_id: str
     col_index: int
     majority_ratio: float
-
-
-# ---------------------------------------------------------------------------
-# Block-list filter
-# Format: header_regex -> set of incompatible type QIDs
-# ---------------------------------------------------------------------------
-
-BLOCK_LIST_PATTERNS: List[Tuple[re.Pattern, Set[str]]] = [
-    (re.compile(r"\b(soccer|football)\s+(team|club|squad)\b", re.I), {"Q6256"}),
-    (re.compile(r"\bcountry\b", re.I), {"Q5"}),
-    (re.compile(r"\byear\b", re.I), {"Q5", "Q6256"}),
-]
-
-
-def header_type_is_blocked(header: str, type_qid: str) -> bool:
-    for pattern, blocked_qids in BLOCK_LIST_PATTERNS:
-        if pattern.search(header) and type_qid in blocked_qids:
-            return True
-    return False
 
 
 # ---------------------------------------------------------------------------
@@ -291,11 +309,11 @@ def iter_column_records(
 
         for col_idx in range(n_cols):
             # Header from row 0
-            try:
-                header = str(table.get_cell(0, col_idx) or "").strip()
-            except Exception:
+            header = safe_get_cell(table, 0, col_idx)
+            if header is None:
                 continue
-            if not header:
+            header = normalize_header(header)
+            if not header or not header_is_informative(header):
                 continue
 
             # Collect linked data rows
@@ -303,22 +321,22 @@ def iter_column_records(
             entity_qids: List[str] = []
 
             for row_idx in range(1, n_rows):
-                wiki_links = links.get((row_idx, col_idx), [])
-                # Take first link with a valid wikidata_id
-                qid: Optional[str] = None
-                for wl in wiki_links:
-                    if wl.wikidata_id:
-                        qid = wl.wikidata_id
-                        break
-                if qid is None:
+                cell_text = safe_get_cell(table, row_idx, col_idx)
+                if cell_text is None:
+                    logger.debug(
+                        "Skipping malformed cell table=%s row=%d col=%d",
+                        table_id, row_idx, col_idx,
+                    )
+                    continue
+                if not cell_text:
                     continue
 
-                try:
-                    cell_text = str(table.get_cell(row_idx, col_idx) or "").strip()
-                except Exception:
-                    cell_text = ""
+                wiki_links = links.get((row_idx, col_idx), [])
+                primary_link = select_primary_link(wiki_links, cell_text)
+                if primary_link is None:
+                    continue
 
-                entity_qids.append(qid)
+                entity_qids.append(primary_link.wikidata_id)
                 cell_values.append(cell_text)
 
             if len(entity_qids) < min_linked_cells:
@@ -343,10 +361,9 @@ def iter_column_records(
 
 
 def _resolve_label(qid: str, label_db) -> Optional[str]:
-    """Resolve the English label for a Wikidata QID via WDEntityLabel.label."""
+    """Resolve a label across string and WDEntityLabel DB formats."""
     try:
-        entry = label_db[qid]
-        return entry.label or None
+        return resolve_label_entry(label_db[qid])
     except KeyError:
         return None
 
@@ -394,9 +411,12 @@ def build_dataset(
 
     # Load databases
     logger.info("Loading kgdata databases from %s …", wd_db)
-    entity_db = get_entity_db(wd_db)
-    label_db = get_entity_label_db(wd_db)
-    class_db = get_wdclass_db(wd_db)         # FIX 1
+    entity_db, label_db, class_db = open_wikidata_databases(
+        wd_db,
+        entity_factory=get_entity_db,
+        label_factory=get_entity_label_db,
+        class_factory=get_class_db,
+    )
     logger.info("Databases loaded.")
 
     # ------------------------------------------------------------------
@@ -423,7 +443,8 @@ def build_dataset(
         if result is None:
             continue
         type_qid = result.primary_qid
-        if header_type_is_blocked(col.header, type_qid):
+        type_label = _resolve_label(type_qid, label_db) or ""
+        if header_type_is_blocked(col.header, type_label, type_qid):
             logger.debug("Blocked: header=%r type=%s", col.header, type_qid)
             continue
         sampled = _sample_diverse_cells(col.cell_values, max_cell_samples, rng)
@@ -478,19 +499,31 @@ def build_dataset(
             continue
 
         for col, inference, sampled in examples:
-            positive_qids = [
+            candidate_positive_qids = [
                 q for q in inference.positive_qids
                 if _resolve_label(q, label_db) is not None
             ]
-            if type_qid not in positive_qids:
-                positive_qids.insert(0, type_qid)
-            positive_labels = [
-                _resolve_label(q, label_db) or q for q in positive_qids
-            ]
-            ancestors = collect_ancestors(
-                positive_qids, class_db, hierarchy_ignore_depth
+            if type_qid not in candidate_positive_qids:
+                candidate_positive_qids.insert(0, type_qid)
+            candidate_labels = {
+                q: _resolve_label(q, label_db) or q
+                for q in candidate_positive_qids
+            }
+            positive_qids = filter_compatible_types(
+                col.header,
+                candidate_positive_qids,
+                candidate_labels,
             )
-            ignored_qids = set(positive_qids) | ancestors
+            if type_qid not in positive_qids:
+                continue
+            positive_labels = [
+                candidate_labels[q] for q in positive_qids
+            ]
+            evidence_qids = set(inference.evidence_qids)
+            ancestors = collect_ancestors(
+                evidence_qids, class_db, hierarchy_ignore_depth
+            )
+            ignored_qids = evidence_qids | ancestors
             neg_qids = miner.mine(type_qid, excluded_qids=ignored_qids)
             neg_labels = [_resolve_label(q, label_db) or q for q in neg_qids]
             rec = asdict(
