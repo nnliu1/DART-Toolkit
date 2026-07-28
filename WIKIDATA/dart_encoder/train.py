@@ -1,7 +1,10 @@
 from __future__ import annotations
-import argparse, json, logging, random
+
+import argparse
+import logging
+import random
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 
 from .data_types import TrainSample
 from .schema_v2 import iter_jsonl_records, normalize_positive_qids
@@ -12,6 +15,32 @@ logging.basicConfig(
     level=logging.INFO,
 )
 logger = logging.getLogger("train")
+
+
+def is_better_checkpoint(
+    recall_at_20: float,
+    best_recall_at_20: Optional[float],
+) -> bool:
+    """Returns whether a checkpoint improves validation Recall@20."""
+    return best_recall_at_20 is None or recall_at_20 > best_recall_at_20
+
+
+def load_validation_samples(path_spec: str) -> List[TrainSample]:
+    """Loads validation samples from a JSONL file, directory, or glob."""
+    samples = []
+    for record in iter_jsonl_records(path_spec):
+        samples.append(
+            TrainSample(
+                anchor_header=record["anchor_header"],
+                anchor_cells=record["anchor_cells"],
+                positive_qid=record["positive_type_qid"],
+                hard_negative_qids=record.get("hard_negative_type_qids", []),
+                positive_qids=normalize_positive_qids(record),
+            )
+        )
+    if not samples:
+        raise ValueError("Validation dataset is empty.")
+    return samples
 
 
 
@@ -61,18 +90,8 @@ def train(args):
     )
 
     # Validation samples (load separately, no collation needed)
-    val_samples: List[TrainSample] = []
-    if args.val_path:
-        for d in iter_jsonl_records(args.val_path):
-            positive_qids = normalize_positive_qids(d)
-            val_samples.append(TrainSample(
-                anchor_header=d["anchor_header"],
-                anchor_cells=d["anchor_cells"],
-                positive_qid=d["positive_type_qid"],
-                hard_negative_qids=d.get("hard_negative_type_qids", []),
-                positive_qids=positive_qids,
-            ))
-        logger.info("Loaded %d validation samples", len(val_samples))
+    val_samples = load_validation_samples(args.val_path)
+    logger.info("Loaded %d validation samples", len(val_samples))
 
     # Optimizer & scheduler
     optimizer = torch.optim.AdamW(
@@ -90,7 +109,7 @@ def train(args):
     out_dir = Path(args.output_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    best_recall20 = 0.0
+    best_recall20 = None
     global_step   = 0
 
     for epoch in range(1, args.epochs + 1):
@@ -151,7 +170,7 @@ def train(args):
             logger.info("Epoch %d | %s", epoch, metrics)
 
             recall20 = metrics.get("Recall@20", 0.0)
-            if recall20 > best_recall20:
+            if is_better_checkpoint(recall20, best_recall20):
                 best_recall20 = recall20
                 save_path = out_dir / "best_model"
                 model.encoder.save_pretrained(save_path)
@@ -173,7 +192,7 @@ def parse_args(argv=None):
     p = argparse.ArgumentParser(description="Train DART bi-encoder retrieval model")
     p.add_argument("--train_path", required=True,
                    help="JSONL file, shard directory, or glob")
-    p.add_argument("--val_path", default=None,
+    p.add_argument("--val_path", required=True,
                    help="Validation JSONL file, directory, or glob")
     p.add_argument("--ontology_path", required=True,  help="Path to ontology_types.jsonl")
     p.add_argument("--output_dir",    required=True,  help="Output directory")
