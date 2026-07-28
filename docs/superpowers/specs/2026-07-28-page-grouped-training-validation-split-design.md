@@ -118,3 +118,20 @@ Training then uses:
 --train_path data/training_data/splits/page_90_10_seed42/train
 --val_path data/training_data/splits/page_90_10_seed42/val
 ```
+
+## Implementation Quality
+
+The implementation remains a single independently runnable standard-library
+script at `data/split_training_data.py`. Its data-processing operations are
+small pure functions that can be imported by unit tests without executing the
+CLI.
+
+The code uses:
+
+- Google-style module, class, and function docstrings;
+- Python type annotations compatible with Python 3.8;
+- descriptive names and short single-purpose functions;
+- `argparse` and an explicit `main(argv=None) -> int`;
+- an `if __name__ == "__main__"` standalone entry point;
+- no third-party runtime dependencies;
+- no unrelated abstraction or framework code.
