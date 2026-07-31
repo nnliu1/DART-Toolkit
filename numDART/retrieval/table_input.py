@@ -49,7 +49,7 @@ def build_dart_column_inputs(
         for member in members:
             rows = _read_rows(source.read(member), member)
             columns = _column_names(rows, member)
-            table_id = member.removesuffix(".json.gz")
+            table_id = member[: -len(".json.gz")]
             for column_index, column_name in enumerate(columns):
                 record = _manifest_record(
                     archive, member, table_id, column_index, column_name
