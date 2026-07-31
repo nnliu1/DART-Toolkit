@@ -1,0 +1,13 @@
+{
+  "batch_size": 128,
+  "dart_repo": "../../DART",
+  "device": "cuda",
+  "max_cells": 10,
+  "max_parents": 3,
+  "model_path": "../../dart/model",
+  "ontology_source": "../data/ontology/dbpedia.owl",
+  "output_dir": "../outputs/cta-dbpedia-baseline",
+  "run_id": "cta-dbpedia-baseline",
+  "table_archive": "../data/table/CTA_test_dbpedia.zip",
+  "top_k": 20
+}
